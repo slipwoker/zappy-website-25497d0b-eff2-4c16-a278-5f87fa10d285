@@ -1,57 +1,47 @@
-# Be a winner - השיטה המעשית לפיתוח מנהיגות — Generative Engine Optimization Map
-
-> A פיתוח מנהיגות וארגונים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://be-a-winner-25497d0b.zappy5.app
+https://example.com
 גלה קואצ'ינג מקצועי שמפתח מנהיגות אמיתית. תוכנית פיתוח מנהיגות לניהול בכיר ולמנכ"לים. צור קשר עוד היום!
 
 ### השירותים שלנו
-https://be-a-winner-25497d0b.zappy5.app/services
+https://example.com/services
 גלה את מגוון שירותי הקואצ'ינג שלנו: קואצ'ינג למנכלים בישראל, תוכנית פיתוח מנהיגות לארגונים ועוד. התאם אישית!
 
 ### אודות
-https://be-a-winner-25497d0b.zappy5.app/about
+https://example.com/about
 למד על הגישה המעשית שלנו לקואצ'ינג ופיתוח מנהיגות לניהול בכיר. הסיפור, הערכים והשיטה שלנו.
 
 ### צור קשר
-https://be-a-winner-25497d0b.zappy5.app/contact
+https://example.com/contact
 צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://be-a-winner-25497d0b.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://be-a-winner-25497d0b.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://be-a-winner-25497d0b.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Be a winner - השיטה המעשית לפיתוח מנהיגות
-Be a winner - השיטה המעשית לפיתוח מנהיגות is a business in the פיתוח מנהיגות וארגונים industry.
-
-## Target Audience
-מנכ"לים וניהול בכיר
-
-## Industry
-פיתוח מנהיגות וארגונים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://be-a-winner-25497d0b.zappy5.app/sitemap.xml
-- **Robots.txt**: https://be-a-winner-25497d0b.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
