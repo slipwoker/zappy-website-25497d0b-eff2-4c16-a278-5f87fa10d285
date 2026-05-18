@@ -418,10 +418,10 @@
 
     <section class="hero" id="hero">
         <div class="hero-overlay"></div>
-        <img data-placeholder="hero-1" data-context="Panoramic view of modern Israeli business office with diverse executive team collaborating around conference table, natural lighting, professional atmosphere" src="/assets/be-a-winner-hero-hero-1.webp" alt="מנהיגים מעוררי השראה בפעולה" class="hero-bg" data-hero-background="true" data-element-type="image" data-element-id="img-1779101767131-y7fpbdwbs">
+        <img data-placeholder="hero-1" data-context="Panoramic view of modern Israeli business office with diverse executive team collaborating around conference table, natural lighting, professional atmosphere" src="/assets/be-a-winner-hero-hero-1.webp" alt="מנהיגים מעוררי השראה בפעולה" class="hero-bg" data-hero-background="true" data-element-type="image" data-element-id="img-1779101767131-y7fpbdwbs" style="object-position: 50% 50%;">
         <div class="container hero-content">
             <h1 style="color: rgb(26, 26, 26) !important;"><span style="color: #1a1a1a !important">אנחנו מייצרים מנהיגים בחברות וארגונים</span></h1>
-            <h3 style="color: rgb(26, 26, 26) !important; outline: none;">הופכים מנהלים טובים למנהיגים מעוררי השראה, כדי ליהנות ולהרוויח הרבה יותר</h3>
+            <h3 style="color: rgb(26, 26, 26) !important;"><span style="color: #1a1a1a !important">הופכים מנהלים טובים למנהיגים מעוררי השראה, כדי ליהנות ולהרוויח הרבה יותר</span></h3>
             <p><a href="/contact" class="btn-hero" style="color: rgb(0, 0, 0) !important;" data-element-type="button" data-element-id="btn-1779101767129-gi920pcbb" data-native-element="true">התחל את המסע שלך</a>
         </p></div>
     </section>
@@ -574,14 +574,14 @@
         var header = document.getElementById('zappy-attribution-header');
         if (header) {
           // Use dynamic announcement content if available
-          if (data.announcement &amp;&amp; data.announcement.html) {
+          if (data.announcement && data.announcement.html) {
             header.innerHTML = data.announcement.html;
           }
           // Apply fixed positioning styles inline (works for existing sites too)
           header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
           // Fix child elements that might have position: fixed from old CSS
           var children = header.querySelectorAll('*');
-          for (var i = 0; i &lt; children.length; i++) {
+          for (var i = 0; i < children.length; i++) {
             children[i].style.position = 'static';
           }
           // Get header height
@@ -589,9 +589,9 @@
           // Find and fix navbar to be fixed as well (prevents gap at top of page)
           var navSelectors = ['nav', '.navbar', '.nav'];
           var navbar = null;
-          for (var j = 0; j &lt; navSelectors.length; j++) {
+          for (var j = 0; j < navSelectors.length; j++) {
             navbar = document.querySelector(navSelectors[j]);
-            if (navbar &amp;&amp; navbar.id !== 'zappy-attribution-header') break;
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
             navbar = null;
           }
           if (navbar) {
