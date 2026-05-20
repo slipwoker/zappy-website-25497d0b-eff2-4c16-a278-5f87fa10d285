@@ -1886,6 +1886,415 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   }
 }
 
+/* AI-generated section */
+/* ============================================
+   Be a Winner — Uniqueness & Benefits Section
+   ============================================ */
+
+.baw-unique-section {
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+  overflow: hidden;
+}
+
+/* ---- CONTAINER ---- */
+.baw-unique-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ============================================
+   PART 1 — Light Background
+   ============================================ */
+.baw-unique-part1 {
+  background: var(--secondary-color, #F5F5F7);
+  padding: 90px 20px 80px;
+  position: relative;
+}
+
+.baw-unique-part1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ---- Header ---- */
+.baw-unique-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.baw-unique-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: var(--text-color, #1a1a1a);
+  margin: 0 0 18px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.baw-unique-title span {
+  color: var(--primary-color, #6C63FF);
+}
+
+.baw-unique-subtitle {
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+/* ---- Cards Row ---- */
+.baw-unique-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.baw-unique-card {
+  background: #ffffff;
+  border: 1px solid rgba(108, 99, 255, 0.15);
+  border-radius: 18px;
+  padding: 36px 28px 32px;
+  box-shadow: 0 4px 24px rgba(108, 99, 255, 0.07);
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.baw-unique-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color, #6C63FF), #a29bfe);
+  border-radius: 18px 18px 0 0;
+  opacity: 0;
+  transition: opacity 0.28s ease;
+}
+
+.baw-unique-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(108, 99, 255, 0.16);
+  border-color: rgba(108, 99, 255, 0.35);
+}
+
+.baw-unique-card:hover::before {
+  opacity: 1;
+}
+
+/* ---- Icon ---- */
+.baw-unique-icon-wrap {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.12), rgba(108, 99, 255, 0.06));
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  color: var(--primary-color, #6C63FF);
+  transition: background 0.28s ease, transform 0.28s ease;
+}
+
+.baw-unique-card:hover .baw-unique-icon-wrap {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.22), rgba(108, 99, 255, 0.12));
+  transform: scale(1.08) rotate(-3deg);
+}
+
+.baw-unique-icon {
+  width: 34px;
+  height: 34px;
+  color: var(--primary-color, #6C63FF);
+}
+
+/* ---- Card Text ---- */
+.baw-unique-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-color, #1a1a1a);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+
+.baw-unique-card-text {
+  font-size: 0.97rem;
+  color: #555;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ============================================
+   PART 2 — Dark Background
+   ============================================ */
+.baw-unique-part2 {
+  background: linear-gradient(135deg, #12103a 0%, #1e1b55 60%, #0f0d2a 100%);
+  padding: 90px 20px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.baw-unique-part2::before {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.18) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.baw-unique-part2::after {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(162, 155, 254, 0.12) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+/* ---- Benefits Title ---- */
+.baw-benefits-title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 56px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  position: relative;
+}
+
+.baw-benefits-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color, #6C63FF), #a29bfe);
+  border-radius: 2px;
+  margin: 16px auto 0;
+}
+
+/* ---- Benefits Grid ---- */
+.baw-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Benefit Card ---- */
+.baw-benefit-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(108, 99, 255, 0.45);
+  border-radius: 18px;
+  padding: 36px 28px 32px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, background 0.28s ease, border-color 0.28s ease;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.baw-benefit-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.08) 0%, transparent 60%);
+  border-radius: 18px;
+  pointer-events: none;
+}
+
+.baw-benefit-card:hover {
+  transform: translateY(-6px);
+  background: rgba(108, 99, 255, 0.12);
+  border-color: rgba(108, 99, 255, 0.75);
+  box-shadow: 0 16px 48px rgba(108, 99, 255, 0.25);
+}
+
+/* ---- Benefit Number ---- */
+.baw-benefit-number {
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(108, 99, 255, 0.25);
+  line-height: 1;
+  margin-bottom: 16px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -1px;
+  transition: color 0.28s ease;
+}
+
+.baw-benefit-card:hover .baw-benefit-number {
+  color: rgba(108, 99, 255, 0.45);
+}
+
+/* ---- Benefit Content ---- */
+.baw-benefit-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+/* ---- Check Icon ---- */
+.baw-benefit-check {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, var(--primary-color, #6C63FF), #a29bfe);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 2px;
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.4);
+}
+
+.baw-benefit-check svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ---- Benefit Text ---- */
+.baw-benefit-text {
+  font-size: 1.05rem;
+  color: #e8e6ff;
+  line-height: 1.75;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* ---- CTA ---- */
+.baw-cta-wrap {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.baw-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, var(--primary-color, #6C63FF), #8b84ff);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 18px 40px;
+  border-radius: 50px;
+  box-shadow: 0 8px 32px rgba(108, 99, 255, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  letter-spacing: 0.2px;
+  border: 2px solid transparent;
+}
+
+.baw-cta-button:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 16px 48px rgba(108, 99, 255, 0.6);
+  background: linear-gradient(135deg, #7b73ff, #a29bfe);
+}
+
+.baw-cta-button:focus-visible {
+  outline: 3px solid #a29bfe;
+  outline-offset: 4px;
+}
+
+.baw-cta-arrow {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+.baw-cta-button:hover .baw-cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* ============================================
+   RESPONSIVE — Tablet
+   ============================================ */
+@media (max-width: 900px) {
+  .baw-unique-cards {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .baw-benefits-grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto 48px;
+  }
+
+  .baw-unique-part1 {
+    padding: 70px 20px 60px;
+  }
+
+  .baw-unique-part2 {
+    padding: 70px 20px 60px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE — Mobile
+   ============================================ */
+@media (max-width: 600px) {
+  .baw-unique-part1 {
+    padding: 56px 16px 48px;
+  }
+
+  .baw-unique-part2 {
+    padding: 56px 16px 48px;
+  }
+
+  .baw-unique-header {
+    margin-bottom: 40px;
+  }
+
+  .baw-unique-card {
+    padding: 28px 22px 24px;
+  }
+
+  .baw-benefit-card {
+    padding: 28px 22px 24px;
+  }
+
+  .baw-benefits-title {
+    margin-bottom: 40px;
+  }
+
+  .baw-cta-button {
+    font-size: 1rem;
+    padding: 16px 28px;
+    width: 100%;
+    max-width: 340px;
+    justify-content: center;
+  }
+
+  .baw-benefit-number {
+    font-size: 2.4rem;
+  }
+
+  .baw-benefit-text {
+    font-size: 0.98rem;
+  }
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
