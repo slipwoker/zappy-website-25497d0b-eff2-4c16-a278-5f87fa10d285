@@ -108,8 +108,6 @@ Description: גלה קואצ'ינג מקצועי שמפתח מנהיגות אמ�
 
 
 
-
-
 ## למה Be a winner שונה מכולם?
 
 
@@ -155,6 +153,8 @@ Description: גלה קואצ'ינג מקצועי שמפתח מנהיגות אמ�
 
 
 עבדנו עם עשרות מנכ"לים ומנהלים בכירים בישראל. יש לנו את הקבלות, ואנחנו גאים בהן.
+
+
 
 
 
@@ -326,7 +326,7 @@ Description: גלה את מגוון שירותי הקואצ'ינג שלנו: ק�
 
 
 
-Happily created by&nbsp;Zappy
+Happily created by Zappy
 
 
 
@@ -852,7 +852,7 @@ Happily created by&nbsp;Zappy
 
 
 
-נוצר באמצעות&nbsp;Zappy
+נוצר באמצעות Zappy
 
 ---
 
@@ -885,7 +885,7 @@ Description: צור קשר עכשיו לקואצ'ינג למנכלים בישר�
 
 
 
-Happily created by&nbsp;Zappy
+Happily created by Zappy
 
 
 
@@ -1127,7 +1127,7 @@ Happily created by&nbsp;Zappy
 
 
 
-נוצר באמצעות&nbsp;Zappy
+נוצר באמצעות Zappy
 
 ---
 
@@ -1332,7 +1332,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות ("החברה",
 
 
 
-נוצר באמצעות&nbsp;Zappy
+נוצר באמצעות Zappy
 
 ---
 
@@ -1546,7 +1546,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות מחויבת �
 
 
 
-נוצר באמצעות&nbsp;Zappy
+נוצר באמצעות Zappy
 
 ---
 
@@ -1779,7 +1779,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות מספקת פ�
 
 
 
-נוצר באמצעות&nbsp;Zappy
+נוצר באמצעות Zappy
 
 ---
 
