@@ -40,7 +40,7 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: robi@robi-steiner.co.il
 
 ### Contact form
 - URL: https://leadership-coaching.co.il/contact

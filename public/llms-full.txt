@@ -609,7 +609,7 @@ Happily created by Zappy
 
 ### אימייל
 
-[business_email]
+robi@robi-steiner.co.il
 
 
 
@@ -939,7 +939,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות ("החברה",
 
 - חברה: Be a winner - השיטה המעשית לפיתוח מנהיגות
 
-- אימייל: info@company.com
+- אימייל: robi@robi-steiner.co.il
 
 - טלפון: 03-1234567
 
@@ -1153,7 +1153,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות מחויבת �
 
 - חברה: Be a winner - השיטה המעשית לפיתוח מנהיגות
 
-- אימייל: info@company.com
+- אימייל: robi@robi-steiner.co.il
 
 - טלפון: 03-1234567
 
@@ -1391,7 +1391,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות מספקת פ�
 
 - חברה: Be a winner - השיטה המעשית לפיתוח מנהיגות
 
-- אימייל: info@company.com
+- אימייל: robi@robi-steiner.co.il
 
 - טלפון: 03-1234567
 
