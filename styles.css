@@ -4158,7 +4158,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 #ai-section-1779703563122-w74oz6g .gallery-mosaic {
   grid-template-columns: repeat(5, 1fr) !important;
-  grid-template-rows: 320px !important;
+  grid-template-rows: 520px !important;
   gap: 12px !important;
 }
 
@@ -4166,6 +4166,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   grid-column: auto !important;
   grid-row: auto !important;
   display: block !important;
+  height: 520px !important;
 }
 
 #ai-section-1779703563122-w74oz6g .gallery-mosaic {
