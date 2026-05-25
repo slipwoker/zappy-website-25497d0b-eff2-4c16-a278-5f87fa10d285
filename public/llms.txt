@@ -6,24 +6,24 @@
 
 ## Pages
 
-### דף הבית
+### פתח מנהיגות מעוררת השראה — Be a winner - השיטה המעשית לפיתוח מנהיגות
 https://leadership-coaching.co.il
 גלה קואצ'ינג מקצועי שמפתח מנהיגות אמיתית. תוכנית פיתוח מנהיגות לניהול בכיר ולמנכ"לים. צור קשר עוד היום!
 
-### אפשרויות הלימוד איתי
+### שירותי פיתוח מנהיגות לניהול בכיר — Be a winner - השיטה המעשית לפיתוח מנהיגות
 https://leadership-coaching.co.il/learning-options-with-me
 גלה את מגוון שירותי הקואצ'ינג שלנו: קואצ'ינג למנכלים בישראל, תוכנית פיתוח מנהיגות לארגונים ועוד. התאם אישית!
-
-### צור קשר
-https://leadership-coaching.co.il/contact
-צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
 
 ### סיפורי הצלחה ופריצות דרך ניהוליות | Be a winner
 https://leadership-coaching.co.il/success-stories
 קראו וצפו בסיפורי ההצלחה של מנכ"לים ומנהלים בכירים שעברו תהליכי קואצ'ינג ופיתוח מנהיגות עם שיטת Be a winner. גלו כיצד אנו מובילים ארגונים לפריצות דרך.
 
-### הספר - ממנהל למנהיג
+### Page
 https://leadership-coaching.co.il/manager-to-leader
+
+### צור קשר לקואצ'ינג מקצועי — Be a winner - השיטה המעשית לפיתוח מנהיגות
+https://leadership-coaching.co.il/contact
+צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
 
 ## Legal & Policy
 
@@ -51,9 +51,9 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
-  - `phone` (tel, required)
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
   - `company` (text)
   - `service` (select)
   - `message` (textarea)
