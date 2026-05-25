@@ -22,8 +22,8 @@ https://leadership-coaching.co.il/contact
 https://leadership-coaching.co.il/success-stories
 קראו וצפו בסיפורי ההצלחה של מנכ"לים ומנהלים בכירים שעברו תהליכי קואצ'ינג ופיתוח מנהיגות עם שיטת Be a winner. גלו כיצד אנו מובילים ארגונים לפריצות דרך.
 
-### Page
-https://leadership-coaching.co.il/book-publishing
+### הספר - ממנהל למנהיג
+https://leadership-coaching.co.il/manager-to-leader
 
 ## Legal & Policy
 
@@ -51,9 +51,9 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
-  - `phone` (tel)
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
   - `company` (text)
   - `service` (select)
   - `message` (textarea)
