@@ -1243,7 +1243,7 @@ This page is ready for your content.
 
 כפתור 1
 כפתור 2
-כפתור 1
+
 
 כפתור 1
 כפתור 2
