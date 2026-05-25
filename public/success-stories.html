@@ -2733,226 +2733,7 @@ img[data-no-hero-position] { position: static !important; }
 
 
 
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
-.success-Stories-videos-section {
-  background: var(--bg-light);
-  color: var(--text-dark);
-  padding: 100px 24px 80px;
-  position: relative;
-  overflow: hidden;
-  direction: rtl;
-}
 
-.success-Stories-videos-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  inset-inline-start: 0;
-  width: 100%;
-  height: 6px;
-  background: linear-gradient(to left, var(--primary), var(--secondary));
-  z-index: 1;
-}
-
-.success-Stories-videos-section .sv-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-}
-
-/* Header */
-.success-Stories-videos-section .sv-header {
-  text-align: center;
-  margin-bottom: 56px;
-}
-
-.success-Stories-videos-section .sv-eyebrow {
-  display: inline-block;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--primary);
-  background: rgba(181, 28, 46, 0.08);
-  padding: 6px 18px;
-  border-radius: 100px;
-  margin-bottom: 18px;
-}
-
-.success-Stories-videos-section .sv-title {
-  font-family: system-ui, sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.3;
-  color: var(--text-dark);
-  margin: 0 0 16px;
-}
-
-.success-Stories-videos-section .sv-subtitle {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--text-muted);
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* Grid */
-.success-Stories-videos-section .sv-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-  direction: rtl;
-}
-
-/* Cards */
-.success-Stories-videos-section .sv-card {
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid rgba(0,0,0,0.06);
-}
-
-.success-Stories-videos-section .sv-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.13);
-}
-
-/* Card Image */
-.success-Stories-videos-section .sv-card-image {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  background: #e9e9e9;
-  flex-shrink: 0;
-}
-
-.success-Stories-videos-section .sv-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
-}
-
-.success-Stories-videos-section .sv-card:hover .sv-card-image img {
-  transform: scale(1.04);
-}
-
-/* Badge */
-.success-Stories-videos-section .sv-badge {
-  position: absolute;
-  top: 14px;
-  inset-inline-end: 14px;
-  background: var(--primary);
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 5px 12px;
-  border-radius: 100px;
-  letter-spacing: 0.03em;
-  z-index: 3;
-  white-space: nowrap;
-}
-
-/* Card Body */
-.success-Stories-videos-section .sv-card-body {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1;
-}
-
-.success-Stories-videos-section .sv-card-meta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.success-Stories-videos-section .sv-role {
-  font-size: 0.8125rem;
-  font-weight: 700;
-  color: var(--secondary);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.success-Stories-videos-section .sv-card-title {
-  font-family: system-ui, sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 1.4;
-  color: var(--text-dark);
-  margin: 0;
-  text-align: right;
-}
-
-.success-Stories-videos-section .sv-card-quote {
-  font-size: 0.9375rem;
-  line-height: 1.7;
-  color: var(--text-muted);
-  margin: 0;
-  text-align: right;
-  position: relative;
-  padding-inline-end: 14px;
-  border-inline-end: 3px solid rgba(181,28,46,0.2);
-}
-
-/* Responsive: Tablet */
-@media (max-width: 1024px) {
-  .success-Stories-videos-section .sv-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .success-Stories-videos-section .sv-card:nth-child(3) {
-    grid-column: 1 / -1;
-    max-width: 480px;
-    margin: 0 auto;
-    width: 100%;
-  }
-}
-
-/* Responsive: Mobile */
-@media (max-width: 768px) {
-  .success-Stories-videos-section {
-    padding: 80px 16px 56px;
-  }
-
-  .success-Stories-videos-section .sv-header {
-    margin-bottom: 36px;
-  }
-
-  .success-Stories-videos-section .sv-title {
-    font-size: 1.5rem;
-  }
-
-  .success-Stories-videos-section .sv-grid {
-    grid-template-columns: 1fr !important;
-    gap: 20px;
-  }
-
-  .success-Stories-videos-section .sv-card:nth-child(3) {
-    grid-column: auto;
-    max-width: 100%;
-  }
-
-  .success-Stories-videos-section .sv-card-body {
-    padding: 18px;
-  }
-
-  .success-Stories-videos-section .sv-card-title {
-    font-size: 1rem;
-  }
-}
-</style>
 
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
@@ -4072,6 +3853,206 @@ img[data-no-hero-position] { position: static !important; }
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.success-Stories-videos-section {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 20px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.success-Stories-videos-section .svs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ── HEADER ── */
+.success-Stories-videos-section .svs-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.success-Stories-videos-section .svs-badge {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--text-light);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 5px 16px;
+  border-radius: 40px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.success-Stories-videos-section .svs-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin: 0 0 16px;
+}
+
+.success-Stories-videos-section .svs-header p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+/* ── GRID ── */
+.success-Stories-videos-section .svs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  direction: rtl;
+}
+
+/* Last 2 cards: center them in the second row */
+.success-Stories-videos-section .svs-card--centered {
+  /* No extra positioning needed — JS-free centering via grid offset below */
+}
+
+/* Row 2 centering trick: span full grid, use inner flex */
+.success-Stories-videos-section .svs-grid::after {
+  content: none;
+}
+
+/* We use a wrapper technique: last 2 cards sit in their natural columns
+   and we push them via grid-column-start */
+.success-Stories-videos-section .svs-card:nth-child(4) {
+  grid-column-start: 1;
+}
+
+.success-Stories-videos-section .svs-card:nth-child(5) {
+  grid-column-start: 2;
+}
+
+/* ── CARD ── */
+.success-Stories-videos-section .svs-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.success-Stories-videos-section .svs-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+}
+
+/* ── CARD IMAGE WRAP ── */
+.success-Stories-videos-section .svs-card-image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #e9edf2;
+}
+
+.success-Stories-videos-section .svs-card-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.success-Stories-videos-section .svs-card:hover .svs-card-image-wrap img {
+  transform: scale(1.04);
+}
+
+/* ── TAG ── */
+.success-Stories-videos-section .svs-tag {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(181, 28, 46, 0.92);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(4px);
+}
+
+/* ── CARD BODY ── */
+.success-Stories-videos-section .svs-card-body {
+  padding: 22px 22px 26px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+}
+
+.success-Stories-videos-section .svs-card-body h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.success-Stories-videos-section .svs-card-body p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ── RESPONSIVE: TABLET ── */
+@media (max-width: 900px) {
+  .success-Stories-videos-section .svs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .success-Stories-videos-section .svs-card:nth-child(4) {
+    grid-column-start: auto;
+  }
+
+  .success-Stories-videos-section .svs-card:nth-child(5) {
+    grid-column-start: auto;
+  }
+}
+
+/* ── RESPONSIVE: MOBILE ── */
+@media (max-width: 600px) {
+  .success-Stories-videos-section {
+    padding: 48px 16px;
+  }
+
+  .success-Stories-videos-section .svs-header {
+    margin-bottom: 36px;
+  }
+
+  .success-Stories-videos-section .svs-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .success-Stories-videos-section .svs-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .success-Stories-videos-section .svs-card:nth-child(4),
+  .success-Stories-videos-section .svs-card:nth-child(5) {
+    grid-column-start: auto;
+  }
+
+  .success-Stories-videos-section .svs-card-body {
+    padding: 16px 16px 20px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -4148,54 +4129,71 @@ img[data-no-hero-position] { position: static !important; }
 
   <!-- Video Testimonials Section -->
   <section class="success-Stories-videos-section" data-layout-spec="Success-Stories-videos" dir="rtl" data-zappy-section="true" id="video-stories">
-  <div class="sv-container">
-    <div class="sv-header">
-      <span class="sv-eyebrow">עדויות אמיתיות</span>
-      <h2 class="sv-title">עדויות מהשטח: מנהיגים משתפים</h2>
-      <p class="sv-subtitle">צפו בעדויות אישיות של מנכ"לים וסמנכ"לים שחוו את השינוי על בשרם והובילו את הארגון שלהם קדימה.</p>
+  <div class="svs-container">
+    <div class="svs-header">
+      <span class="svs-badge">עדויות אמיתיות</span>
+      <h2>עדויות מהשטח: מנהיגים משתפים</h2>
+      <p>צפו בעדויות אישיות של מנכ"לים וסמנכ"לים שחוו את השינוי על בשרם והובילו את הארגון שלהם קדימה.</p>
     </div>
 
-    <div class="sv-grid">
-      <!-- Card 1 -->
-      <article class="sv-card sv-card--tall">
-        <div class="sv-card-image">
+    <div class="svs-grid">
+
+      <article class="svs-card">
+        <div class="svs-card-image-wrap">
           <img alt="עדות מנכ" src="/assets/page-video-thumb-1-1779276114616.webp" data-placeholder="video-thumb-1" data-context="גבר ישראלי בחליפה במשרד מודרני, מחייך למצלמה" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-          <span class="sv-badge">בניית חזון אסטרטגי</span>
+          <span class="svs-tag">בניית חזון אסטרטגי</span>
+        </div>
+        <div class="svs-card-body">
+          <h3>מנכ"ל — עדות אישית</h3>
+          <p>כיצד בניית חזון אסטרטגי ברור הפכה את הארגון למכונה צומחת ומובילה בתחומה.</p>
         </div>
       </article>
 
-      <!-- Card 2 -->
-      <article class="sv-card sv-card--tall">
-        <div class="sv-card-image">
+      <article class="svs-card">
+        <div class="svs-card-image-wrap">
           <img alt="עדות סמנכ" src="/assets/page-video-thumb-2-1779276112202.webp" data-placeholder="video-thumb-2" data-context="אישה מנהלת בכירה יושבת בחדר ישיבות, מראה מקצועי וסמכותי" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-          <span class="sv-badge">הובלת שינוי ארגוני</span>
+          <span class="svs-tag">הובלת שינוי ארגוני</span>
+        </div>
+        <div class="svs-card-body">
+          <h3>סמנכ"ל — מסע השינוי</h3>
+          <p>הובלת שינוי ארגוני מעמיק שהפך תרבות ניהולית מסורתית לתרבות מנהיגות מעצימה.</p>
         </div>
       </article>
 
-      <!-- Card 3 -->
-      <article class="sv-card sv-card--tall">
-        <div class="sv-card-image">
+      <article class="svs-card">
+        <div class="svs-card-image-wrap">
           <img alt="עדות מייסד חברה" src="/assets/page-video-thumb-3-1779276114841.webp" data-placeholder="video-thumb-3" data-context="שני מנהלים לוחצים ידיים על רקע חלון פנורמי של עיר" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-          <span class="sv-badge">מעבר מניהול למנהיגות</span>
+          <span class="svs-tag">אסטרטגיה עסקית</span>
+        </div>
+        <div class="svs-card-body">
+          <h3>מייסד חברה — ראייה מחדש</h3>
+          <p>אסטרטגיה עסקית חדשה שצמחה מתוך תהליך פיתוח מנהיגות אישי ועמוק.</p>
         </div>
       </article>
 
-      <!-- Card 4 -->
-      <article class="sv-card sv-card--tall">
-        <div class="sv-card-image">
+      <article class="svs-card svs-card--centered">
+        <div class="svs-card-image-wrap">
           <img alt="עדות מנהל בכיר" src="/assets/page-video-thumb-1-1779276114616.webp" data-placeholder="video-thumb-4" data-context="מנהל בכיר ישראלי בפגישת הנהלה, מוביל דיון אסטרטגי" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-          <span class="sv-badge">אסטרטגיה עסקית</span>
+          <span class="svs-tag">מעבר מניהול למנהיגות</span>
+        </div>
+        <div class="svs-card-body">
+          <h3>מנהל בכיר — המעבר הגדול</h3>
+          <p>המעבר מניהול למנהיגות — כיצד שינוי תפיסתי אחד שינה את כל דרך הניהול.</p>
         </div>
       </article>
 
-      <!-- Card 5 -->
-      <article class="sv-card sv-card--tall">
-        <div class="sv-card-image">
+      <article class="svs-card svs-card--centered">
+        <div class="svs-card-image-wrap">
           <img alt="עדות מנהלת משאבי אנוש" src="/assets/page-video-thumb-2-1779276112202.webp" data-placeholder="video-thumb-5" data-context="מנהלת משאבי אנוש ישראלית, סביבת עבודה מודרנית, מנהיגות ארגונית" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-          <span class="sv-badge">פיתוח מנהיגות</span>
+          <span class="svs-tag">פיתוח מנהיגות</span>
+        </div>
+        <div class="svs-card-body">
+          <h3>מנהלת משאבי אנוש — פיתוח מנהיגות</h3>
+          <p>פיתוח מנהיגות ברמה הארגונית שהניב שיפור משמעותי בשימור עובדים ובמחוברות.</p>
         </div>
       </article>
-</div>
+
+    </div>
   </div>
 </section>
 
