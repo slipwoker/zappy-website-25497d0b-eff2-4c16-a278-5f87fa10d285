@@ -4238,6 +4238,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 /* Quick Nav JS Injection */
 @keyframes zqn-appear{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 .zappy-quick-nav{animation:zqn-appear 0.4s ease forwards;}
+/* Batch: Override quick nav to static position and remove body bottom padding */
+.zappy-quick-nav { position: static !important; box-shadow: 0 -4px 20px rgba(0,0,0,0.12) !important; } body { padding-bottom: 0 !important; }
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
