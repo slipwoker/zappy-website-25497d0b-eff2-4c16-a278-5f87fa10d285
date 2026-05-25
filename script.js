@@ -209,6 +209,59 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+/* Video Gallery — play button ripple + accessible focus management */
+(function () {
+  'use strict';
+
+  var playBtns = document.querySelectorAll('.vg-play-btn');
+
+  playBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var card = btn.closest('.vg-card');
+      var title = card ? card.querySelector('.vg-card-title') : null;
+      var name = title ? title.textContent.trim() : 'הסרטון';
+
+      /* Visual feedback: brief pulse on the thumbnail */
+      var wrap = card ? card.querySelector('.vg-thumbnail-wrap') : null;
+      if (wrap) {
+        wrap.classList.add('vg-playing');
+        setTimeout(function () {
+          wrap.classList.remove('vg-playing');
+        }, 600);
+      }
+
+      /*
+        Replace this alert with your actual video modal / lightbox logic.
+        e.g.: openVideoModal(videoSrc);
+      */
+      console.log('הפעלת סרטון: ' + name);
+    });
+
+    /* Keyboard accessibility — Enter / Space already handled by button,
+       but ensure focus ring is visible */
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        btn.click();
+      }
+    });
+  });
+
+  /* Inject the playing pulse style dynamically */
+  var style = document.createElement('style');
+  style.textContent = [
+    '@keyframes vg-pulse {',
+    '  0%   { box-shadow: 0 0 0 0 rgba(181,28,46,0.55); }',
+    '  70%  { box-shadow: 0 0 0 14px rgba(181,28,46,0); }',
+    '  100% { box-shadow: 0 0 0 0 rgba(181,28,46,0); }',
+    '}',
+    '.vg-thumbnail-wrap.vg-playing { animation: vg-pulse 0.6s ease; }'
+  ].join('\n');
+  document.head.appendChild(style);
+}());
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
