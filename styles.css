@@ -4594,6 +4594,8 @@ body { padding-bottom: 68px; }
 .zappy-quick-nav__item { color: #aaaaaa !important; }
 .zappy-quick-nav__item:hover { color: #ffffff !important; background: rgba(255,255,255,0.08) !important; }
 .zappy-quick-nav__item.zqn-active { color: #ffffff !important; }
+/* Batch: הצמד את אופציות התפריט ללוגו מימין בדסקטופ */
+@media (min-width: 769px) { .site-navbar { justify-content: flex-start !important; } .site-navbar ul { margin-right: 0 !important; margin-left: auto !important; justify-content: flex-end !important; } }
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
