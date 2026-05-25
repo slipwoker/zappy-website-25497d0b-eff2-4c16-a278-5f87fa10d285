@@ -4601,6 +4601,31 @@ body { padding-bottom: 68px; }
   color: var(--background-color);
 }
 
+.faq-section h2 {
+  color: var(--background-color) !important;
+}
+
+.contact-section .contact-info h2,
+.contact-section .contact-info h3,
+.contact-section .contact-info p,
+.contact-section .contact-details h3,
+.contact-section .contact-details p {
+  color: var(--background-color) !important;
+}
+
+.contact-section .contact-details a {
+  color: var(--background-color) !important;
+}
+
+.contact-section .contact-details a:hover {
+  color: rgba(255,255,255,0.8) !important;
+}
+
+.contact-section .contact-icon {
+  background: rgba(255,255,255,0.2) !important;
+  color: var(--background-color) !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
