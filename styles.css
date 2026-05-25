@@ -4156,6 +4156,18 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   }
 }
 
+#ai-section-1779703563122-w74oz6g .gallery-mosaic {
+  grid-template-columns: repeat(5, 1fr) !important;
+  grid-template-rows: 320px !important;
+  gap: 12px !important;
+}
+
+#ai-section-1779703563122-w74oz6g .gallery-item {
+  grid-column: auto !important;
+  grid-row: auto !important;
+  display: block !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
