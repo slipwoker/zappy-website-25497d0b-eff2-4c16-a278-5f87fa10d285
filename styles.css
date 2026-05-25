@@ -4232,6 +4232,12 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .about-section-1, .about-section-2, .about-section-3 {
   background-color: var(--surface-color) !important;
 }
+/* Batch: Quick navigation bar fixed at bottom of all pages */
+.zappy-quick-nav{position:fixed;bottom:0;right:0;left:0;z-index:9998;background:#ffffff;border-top:3px solid #B51C2E;box-shadow:0 -4px 20px rgba(0,0,0,0.13);direction:rtl;font-family:'Rubik',sans-serif;}.zappy-quick-nav__inner{display:flex;justify-content:center;align-items:stretch;max-width:1440px;margin:0 auto;}.zappy-quick-nav__item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:10px 22px;color:#4a4a4a;text-decoration:none;font-size:12px;font-weight:600;border-left:1px solid #eee;transition:color 0.2s,background 0.2s;min-width:90px;white-space:nowrap;}.zappy-quick-nav__item:last-child{border-left:none;}.zappy-quick-nav__item svg{width:22px;height:22px;flex-shrink:0;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.zappy-quick-nav__item:hover,.zappy-quick-nav__item.zqn-active{color:#B51C2E;background:#FDF3F4;}body{padding-bottom:70px !important;}@media(max-width:768px){.zappy-quick-nav__item{padding:8px 0;font-size:10px;min-width:0;flex:1;}.zappy-quick-nav__item span{font-size:9px;}.zappy-quick-nav__item svg{width:20px;height:20px;}body{padding-bottom:60px !important;}}
+/* Batch: Quick nav appearance animation */
+/* Quick Nav JS Injection */
+@keyframes zqn-appear{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.zappy-quick-nav{animation:zqn-appear 0.4s ease forwards;}
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
