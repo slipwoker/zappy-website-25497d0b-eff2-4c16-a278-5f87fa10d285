@@ -4210,6 +4210,25 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   top: auto !important;
 }
 
+#ai-section-1779703563122-w74oz6g [data-zappy-zoom-wrapper="true"] {
+  padding-bottom: 75% !important;
+  min-height: 400px !important;
+}
+
+#ai-section-1779703563122-w74oz6g .gallery-item {
+  min-height: 400px !important;
+}
+
+#ai-section-1779703563122-w74oz6g .gallery-img-wrap {
+  min-height: 400px !important;
+}
+
+#ai-section-1779703563122-w74oz6g [data-zappy-zoom-wrapper="true"] img {
+  height: 100% !important;
+  min-height: 400px !important;
+  object-fit: cover !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
