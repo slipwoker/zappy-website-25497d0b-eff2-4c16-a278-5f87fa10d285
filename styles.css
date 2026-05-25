@@ -4597,6 +4597,10 @@ body { padding-bottom: 68px; }
 /* Batch: הצמד את אופציות התפריט ללוגו מימין בדסקטופ */
 @media (min-width: 769px) { .site-navbar { justify-content: flex-start !important; } .site-navbar ul { margin-right: 0 !important; margin-left: auto !important; justify-content: flex-end !important; } }
 
+#page-header h1, #page-header h3 {
+  color: var(--background-color);
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
