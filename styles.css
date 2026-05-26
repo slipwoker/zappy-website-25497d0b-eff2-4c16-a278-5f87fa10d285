@@ -6698,6 +6698,40 @@ body { padding-bottom: 68px; }
 }
 }
 
+.lect-section .lect-container {
+  align-items: stretch;
+}
+
+.lect-section .lect-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.lect-section .lect-image-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.lect-section .lect-image-card [data-zappy-zoom-wrapper] {
+  flex: 1 !important;
+  height: auto !important;
+  min-height: 300px !important;
+  width: 100% !important;
+}
+
+.lect-section .lect-image-card .lect-image {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
