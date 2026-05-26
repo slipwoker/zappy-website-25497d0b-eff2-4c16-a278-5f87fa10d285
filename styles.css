@@ -7317,6 +7317,18 @@ body { padding-bottom: 68px; }
   text-shadow: 0 1px 8px rgba(0,0,0,0.6) !important;
 }
 
+#hero h1, #hero h2, #hero h3, #hero p, #hero span, #hero a {
+  color: var(--background-color) !important;
+}
+
+#hero h1 {
+  text-shadow: 0 2px 20px rgba(0,0,0,0.85), 0 1px 6px rgba(0,0,0,0.7) !important;
+}
+
+#hero p {
+  text-shadow: 0 1px 10px rgba(0,0,0,0.75) !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
