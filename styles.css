@@ -7265,6 +7265,16 @@ body { padding-bottom: 68px; }
   margin-inline-end: auto !important;
 }
 
+#layout-1779712201407 .about-me-title,
+#layout-1779712201407 .about-me-title span {
+  color: var(--background-color) !important;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+
+#layout-1779712201407 .about-me-divider {
+  background: linear-gradient(90deg, var(--background-color) 0%, rgba(255,255,255,0.5) 100%);
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
