@@ -7292,6 +7292,23 @@ body { padding-bottom: 68px; }
 /* /Zappy custom logo size */
 
 
+.site-navbar {
+  min-height: 90px;
+  align-items: center;
+}
+
+.site-navbar a:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.site-navbar a:first-child img {
+  height: 80px !important;
+  width: auto !important;
+  max-width: 280px !important;
+  object-fit: contain !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
