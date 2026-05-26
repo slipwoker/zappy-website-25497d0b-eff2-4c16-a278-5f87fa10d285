@@ -7309,6 +7309,14 @@ body { padding-bottom: 68px; }
   object-fit: contain !important;
 }
 
+#hero h1 {
+  text-shadow: 0 2px 16px rgba(0,0,0,0.7), 0 1px 4px rgba(0,0,0,0.5) !important;
+}
+
+#hero p {
+  text-shadow: 0 1px 8px rgba(0,0,0,0.6) !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
