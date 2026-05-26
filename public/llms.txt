@@ -28,6 +28,9 @@ https://leadership-coaching.co.il/manager-to-leader
 https://leadership-coaching.co.il/contact-us
 צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
 
+### Page
+https://leadership-coaching.co.il/videos-over-years
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -54,9 +57,9 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
-  - `phone` (tel, required)
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
   - `company` (text)
   - `service` (select)
   - `message` (textarea)
