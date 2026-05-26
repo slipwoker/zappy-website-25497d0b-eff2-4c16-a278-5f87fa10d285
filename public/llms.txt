@@ -50,6 +50,8 @@ Information about WCAG compliance and accessibility features.
 ## How to Contact Us
 
 - Email: robi@robi-steiner.co.il
+- Phone: 0587458008
+- Phone (tel): tel:0587458008
 
 ### Contact form
 - URL: https://leadership-coaching.co.il/contact-us
