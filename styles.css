@@ -7189,6 +7189,14 @@ body { padding-bottom: 68px; }
   color: var(--background-color) !important;
 }
 
+#layout-about-section-1 .about-v2-cards-grid {
+  grid-template-columns: 1fr !important;
+}
+
+#layout-about-section-2 .about-v2-mission-grid {
+  grid-template-columns: 1fr !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
