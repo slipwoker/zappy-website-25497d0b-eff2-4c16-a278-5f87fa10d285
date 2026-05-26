@@ -7241,6 +7241,30 @@ body { padding-bottom: 68px; }
   border: none !important;
 }
 
+#layout-1779712201407 .about-me-content {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+#layout-1779712201407 .about-me-title {
+  text-align: center !important;
+}
+
+#layout-1779712201407 .about-me-subtitle {
+  text-align: center !important;
+  margin-inline-start: auto !important;
+  margin-inline-end: auto !important;
+}
+
+#layout-1779712201407 .about-me-badge {
+  align-self: center !important;
+}
+
+#layout-1779712201407 .about-me-divider {
+  margin-inline-start: auto !important;
+  margin-inline-end: auto !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
