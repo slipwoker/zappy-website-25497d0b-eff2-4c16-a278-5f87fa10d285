@@ -37,7 +37,7 @@ Description: גלה קואצ'ינג מקצועי שמפתח מנהיגות אמ�
 
 
 
-Be a winner
+
 
 - בית
 
@@ -212,7 +212,7 @@ URL: https://leadership-coaching.co.il/about-me
 
 
 
-Be a winner
+
 
 - בית
 
@@ -436,7 +436,7 @@ Description: גלה את מגוון שירותי הקואצ'ינג שלנו: ק�
 
 
 
-Be a winner
+
 
 - בית
 
@@ -958,7 +958,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 
-Be a winner
+
 
 - בית
 
@@ -1157,7 +1157,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 
 
-Be a winner
+
 
 - בית
 
@@ -1365,7 +1365,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 
 
-Be a winner
+
 
 - בית
 
@@ -1601,7 +1601,7 @@ Description: קראו וצפו בסיפורי ההצלחה של מנכ"לים ו
 
 
 
-Be a winner
+
 
 - בית
 
@@ -1837,7 +1837,7 @@ URL: https://leadership-coaching.co.il/manager-to-leader
 
 
 
-Be a winner
+
 
 - בית
 
@@ -1920,7 +1920,7 @@ Description: צור קשר עכשיו לקואצ'ינג למנכלים בישר�
 
 
 
-Be a winner
+
 
 - בית
 
