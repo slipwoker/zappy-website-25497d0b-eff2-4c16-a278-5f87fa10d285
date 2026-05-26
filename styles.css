@@ -7329,6 +7329,10 @@ body { padding-bottom: 68px; }
   text-shadow: 0 1px 10px rgba(0,0,0,0.75) !important;
 }
 
+.site-navbar ul li:last-child {
+  margin-inline-start: auto;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
