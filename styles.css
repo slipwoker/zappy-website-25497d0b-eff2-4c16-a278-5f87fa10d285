@@ -6620,6 +6620,8 @@ body { padding-bottom: 68px; }
 
 .lect-section .lect-description {
   display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 .lect-section .lect-lectures-grid {
