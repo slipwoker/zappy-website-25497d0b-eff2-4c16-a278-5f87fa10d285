@@ -6761,6 +6761,30 @@ body { padding-bottom: 68px; }
   min-height: 500px !important;
 }
 
+.ws-oneday-section .ws-oneday-container {
+  align-items: flex-start !important;
+}
+
+.ws-oneday-section .ws-oneday-image {
+  height: auto !important;
+  min-height: 300px;
+  max-height: none !important;
+}
+
+.ws-oneday-section .ws-oneday-image-wrap {
+  align-self: stretch !important;
+}
+
+.ws-oneday-section .ws-oneday-image-frame {
+  height: 100% !important;
+}
+
+.ws-oneday-section .ws-oneday-image {
+  height: 100% !important;
+  min-height: 400px;
+  object-fit: cover;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
