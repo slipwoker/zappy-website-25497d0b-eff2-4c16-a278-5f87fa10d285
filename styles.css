@@ -6230,14 +6230,9 @@ body { padding-bottom: 68px; }
   }
 }
 
-/* AI-generated section */
-/* =============================================
-   IGA — Group Process Section
-   ============================================= */
-
 .iga-group-process-section {
   background-color: var(--surface-color, #FAF0F1);
-  padding: 90px 20px;
+  padding: 80px 24px !important;
   font-family: system-ui, sans-serif;
   direction: rtl;
   position: relative;
@@ -6909,7 +6904,7 @@ body { padding-bottom: 68px; }
 
 .iga-group-process-section .iga-grid {
   display: flex;
-  flex-direction: row;
+  flex-direction: row !important;
   align-items: flex-start;
   gap: 56px;
 }
