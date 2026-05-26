@@ -7197,6 +7197,50 @@ body { padding-bottom: 68px; }
   grid-template-columns: 1fr !important;
 }
 
+.about-mission-list-section {
+  background: var(--surface-color) !important;
+}
+
+.about-mission-list-section .about-mission-list-title {
+  color: var(--text-dark) !important;
+}
+
+.about-mission-list-section .about-mission-list-subtitle {
+  color: var(--text-muted) !important;
+}
+
+.about-mission-list-section .about-mission-list-item-title {
+  color: var(--text-dark) !important;
+}
+
+.about-mission-list-section .about-mission-list-item-desc {
+  color: var(--text-muted) !important;
+}
+
+.about-mission-list-section .about-mission-list-badge {
+  background: rgba(181,28,46,0.09) !important;
+  color: var(--primary-color) !important;
+  border: 1px solid rgba(181,28,46,0.2) !important;
+}
+
+.about-mission-list-section .about-mission-list-item {
+  border-bottom: 1px solid rgba(0,0,0,0.07) !important;
+}
+
+.about-mission-list-section .about-mission-list-item:first-child {
+  border-top: 1px solid rgba(0,0,0,0.07) !important;
+}
+
+.about-mission-list-section .about-mission-list-icon {
+  background: rgba(181,28,46,0.08) !important;
+}
+
+.about-mission-list-section .about-mission-list-btn {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
