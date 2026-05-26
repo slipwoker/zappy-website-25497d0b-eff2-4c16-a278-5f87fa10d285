@@ -10,6 +10,17 @@
 https://leadership-coaching.co.il
 גלה קואצ'ינג מקצועי שמפתח מנהיגות אמיתית. תוכנית פיתוח מנהיגות לניהול בכיר ולמנכ"לים. צור קשר עוד היום!
 
+### מה אומרים הלקוחות
+https://leadership-coaching.co.il/customer-testimonials
+קראו וצפו בסיפורי ההצלחה של מנכ"לים ומנהלים בכירים שעברו תהליכי קואצ'ינג ופיתוח מנהיגות עם שיטת Be a winner. גלו כיצד אנו מובילים ארגונים לפריצות דרך.
+
+### Page
+https://leadership-coaching.co.il/videos-over-years
+
+### צור קשר לקואצ'ינג מקצועי — Be a winner - השיטה המעשית לפיתוח מנהיגות
+https://leadership-coaching.co.il/contact-us
+צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
+
 ### Page
 https://leadership-coaching.co.il/about-me
 
@@ -17,19 +28,8 @@ https://leadership-coaching.co.il/about-me
 https://leadership-coaching.co.il/learning-options-with-me
 גלה את מגוון שירותי הקואצ'ינג שלנו: קואצ'ינג למנכלים בישראל, תוכנית פיתוח מנהיגות לארגונים ועוד. התאם אישית!
 
-### מה אומרים הלקוחות
-https://leadership-coaching.co.il/customer-testimonials
-קראו וצפו בסיפורי ההצלחה של מנכ"לים ומנהלים בכירים שעברו תהליכי קואצ'ינג ופיתוח מנהיגות עם שיטת Be a winner. גלו כיצד אנו מובילים ארגונים לפריצות דרך.
-
 ### Page
 https://leadership-coaching.co.il/manager-to-leader
-
-### צור קשר לקואצ'ינג מקצועי — Be a winner - השיטה המעשית לפיתוח מנהיגות
-https://leadership-coaching.co.il/contact-us
-צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
-
-### Page
-https://leadership-coaching.co.il/videos-over-years
 
 ## Legal & Policy
 
@@ -57,9 +57,9 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
-  - `phone` (tel)
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
   - `company` (text)
   - `service` (select)
   - `message` (textarea)
