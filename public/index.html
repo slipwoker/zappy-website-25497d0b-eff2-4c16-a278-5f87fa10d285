@@ -302,7 +302,7 @@
             }
           </style>
         
-          <style id="zappy-nested-menu-style" disabled="">
+          <style id="zappy-nested-menu-style">
             /* Menu Group styling (non-clickable parent) */
             .menu-group-title {
               display: block;
@@ -594,6 +594,116 @@
               }
             }
           </style>
+          
+          <script id="zappy-mobile-menu-script">
+            // Mobile menu toggle for nested submenus (including Menu Groups)
+            // Uses separate toggle button - link navigates, arrow toggles submenu
+            (function() {
+              function initMobileMenuToggles() {
+                // Only run on mobile
+                if (window.innerWidth > 768) {
+                  // Remove any toggle buttons on desktop
+                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn => btn.remove());
+                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu => {
+                    menu.classList.remove('mobile-expanded');
+                  });
+                  console.log('[MOBILE MENU] Desktop mode - cleanup done');
+                  return;
+                }
+                
+                console.log('[MOBILE MENU] Initializing mobile menu toggles...');
+                
+                // Find all parent menu items (items with .sub-menu)
+                const menuItemsWithSubmenus = document.querySelectorAll(
+                  '.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)'
+                );
+                
+                console.log('[MOBILE MENU] Found', menuItemsWithSubmenus.length, 'items with submenus');
+                
+                menuItemsWithSubmenus.forEach(function(li) {
+                  // Skip if already has toggle button
+                  if (li.querySelector('.mobile-submenu-toggle')) {
+                    return;
+                  }
+                  
+                  const submenu = li.querySelector('.sub-menu');
+                  const parentLink = li.querySelector(':scope > a') || li.querySelector(':scope > .menu-group-title');
+                  
+                  if (!submenu || !parentLink) return;
+                  
+                  // Create toggle button
+                  const toggleBtn = document.createElement('button');
+                  toggleBtn.className = 'mobile-submenu-toggle';
+                  toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+                  toggleBtn.setAttribute('type', 'button');
+
+                  // Insert toggle button after the link
+                  parentLink.insertAdjacentElement('afterend', toggleBtn);
+                  
+                  console.log('[MOBILE MENU] Created toggle button for:', parentLink.textContent?.trim());
+                  
+                  // Handle toggle button click - only toggles submenu
+                  toggleBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const isExpanded = submenu.classList.contains('mobile-expanded');
+                    
+                    // Close all other submenus first
+                    document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+                      if (menu !== submenu) {
+                        menu.classList.remove('mobile-expanded');
+                        const otherToggle = menu.parentElement.querySelector('.mobile-submenu-toggle');
+                        if (otherToggle) otherToggle.classList.remove('expanded');
+                      }
+                    });
+                    
+                    // Toggle this submenu
+                    submenu.classList.toggle('mobile-expanded');
+                    toggleBtn.classList.toggle('expanded');
+                    
+                    console.log('[MOBILE MENU] Toggled submenu:', !isExpanded ? 'expanded' : 'collapsed');
+                  });
+                  
+                  // Parent link navigates normally - no preventDefault
+                });
+              }
+              
+              // Initialize on DOM load
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initMobileMenuToggles);
+              } else {
+                initMobileMenuToggles();
+              }
+              
+              // Re-initialize on window resize (but use debounce to avoid too many calls)
+              let resizeTimer;
+              window.addEventListener('resize', function() {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(initMobileMenuToggles, 250);
+              });
+              
+              // Also initialize when mobile menu becomes visible
+              // This handles cases where the mobile menu is hidden initially
+              const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                  if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    const target = mutation.target;
+                    if (target.classList.contains('active') || target.style.display !== 'none') {
+                      console.log('[MOBILE MENU] Mobile menu became visible, re-initializing...');
+                      setTimeout(initMobileMenuToggles, 100);
+                    }
+                  }
+                });
+              });
+              
+              // Observe mobile menu containers
+              const mobileMenus = document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu');
+              mobileMenus.forEach(function(menu) {
+                observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+              });
+            })();
+          </script>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "25497d0b-eff2-4c16-a278-5f87fa10d285"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -634,7 +744,11 @@
 </head>
 <body>
 
-<nav class="site-navbar" style="position:fixed;top:0;right:0;left:0;z-index:9998;background:#ffffff;box-shadow:0 2px 8px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:space-between;padding:0 12px;height:60px;min-height:60px;direction:rtl"><a href="/"><img src="/assets/be-a-winner-general-hero-upload-1779790390778-1sxbwu.webp?v=1779790390778" alt="Be a winner לוגו"></a><button class="mobile-menu-toggle" aria-label="פתיחת תפריט" onclick="var m=this.parentElement.querySelector('ul');m.classList.toggle('mobile-open');this.classList.toggle('open');">☰</button><ul><li><a href="/about-me">מי אני</a></li><li><a href="/whats-unique-about-us" class="">מה ייחודי אצלנו?</a></li><li><a href="/study-options-available">אפשרויות הלימוד איתנו</a></li><li><a href="/meet-the-team" class="">להכיר את הצוות</a></li><li><a href="/customer-testimonials">מה אומרים הלקוחות</a></li><li><a href="/communication-and-inspiration-performances" class="">הופעות בתקשרות והשראה</a></li><li><a href="/manager-to-leader">ממנהל למנהיג - הספר</a></li><li class="nav-cta-item-mobile"><a href="/contact-us">צור קשר</a></li></ul><a href="/contact-us" class="nav-cta-btn">צור קשר</a></nav>
+<nav class="site-navbar" style="position:fixed;top:0;right:0;left:0;z-index:9998;background:#ffffff;box-shadow:0 2px 8px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;direction:rtl;">
+  <a href="/" style="display: flex; align-items: center; text-decoration: none; background-color: transparent; border-radius: 0px; padding: 6px 10px"><img src="/assets/be-a-winner-general-hero-upload-1779790390778-1sxbwu.webp?v=1779790390778" alt="Be a winner לוגו" style="height: 100px; width: auto; object-fit: contain"></a>
+  <ul style="list-style:none;margin:0;padding:0;display:flex;gap:8px;align-items:center;"><li><a href="/about-me" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:6px;">מי אני</a></li><li><a href="/whats-unique-about-us" class="">מה ייחודי אצלנו?</a></li><li><a href="/study-options-available" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:6px;">אפשרויות הלימוד איתנו</a></li><li><a href="/meet-the-team" class="">להכיר את הצוות</a></li><li><a href="/customer-testimonials" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:6px;">מה אומרים הלקוחות</a></li><li><a href="/communication-and-inspiration-performances" class="" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:4px;transition:color 0.3s ease;">הופעות בתקשרות והשראה</a></li><li><a href="/manager-to-leader" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:6px;">ממנהל למנהיג - הספר</a></li><li class="nav-cta-item-mobile"><a href="/contact-us">צור קשר</a></li></ul>
+  <a href="/contact-us" class="nav-cta-btn" style="background: #B51C2E; color: #ffffff; text-decoration: none; font-weight: 600; padding: 8px 18px; border-radius: 6px; white-space: nowrap; flex-shrink: 0; border-bottom: none">צור קשר</a>
+</nav>
 
 <!-- Zappy Attribution Header -->
 
