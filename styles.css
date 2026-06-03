@@ -7421,6 +7421,52 @@ html {
 }
 }
 
+@media (max-width: 768px) {
+.site-navbar {
+  height: 60px !important;
+  min-height: 60px !important;
+  padding: 0 16px !important;
+  overflow: visible !important;
+}
+
+.site-navbar > ul {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.site-navbar > .nav-cta-btn {
+  display: none !important;
+}
+
+.site-navbar > a {
+  height: auto !important;
+  max-height: 50px !important;
+}
+
+.site-navbar > a img {
+  height: 46px !important;
+  max-height: 46px !important;
+  width: auto !important;
+}
+
+.site-navbar .mobile-toggle {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  font-size: 24px !important;
+  color: #1a1a1a !important;
+  cursor: pointer !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 8px !important;
+  margin: 0 !important;
+  z-index: 1000 !important;
+  order: 1 !important;
+}
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
