@@ -7771,6 +7771,95 @@ html, body {
   gap: 24px !important;
 }
 }
+/* Batch: Clean mobile navbar + global fixes for all pages */
+/* === CLEAN MOBILE NAVBAR + GLOBAL FIXES === */
+@media (max-width: 768px) {
+  /* Navbar */
+  .site-navbar {
+    height: 60px !important;
+    min-height: 60px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .site-navbar > a[href="/"] img {
+    height: 42px !important;
+    max-height: 42px !important;
+    width: auto !important;
+  }
+  .site-navbar > .nav-cta-btn { display: none !important; }
+  .site-navbar .mobile-menu-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 26px !important;
+    color: #1a1a1a !important;
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 10000 !important;
+    flex-shrink: 0 !important;
+  }
+  .site-navbar > ul {
+    display: flex !important;
+    flex-direction: column !important;
+    position: fixed !important;
+    top: 60px !important;
+    right: 0 !important;
+    width: 100% !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    background: #ffffff !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+    z-index: 9997 !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: max-height 0.35s ease, padding 0.35s ease !important;
+    visibility: visible !important;
+  }
+  .site-navbar > ul.mobile-open {
+    max-height: 600px !important;
+    padding: 8px 0 16px 0 !important;
+    overflow-y: auto !important;
+  }
+  .site-navbar > ul > li {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+  }
+  .site-navbar > ul > li > a {
+    display: block !important;
+    padding: 14px 24px !important;
+    font-size: 16px !important;
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    text-align: right !important;
+  }
+  .site-navbar > ul > li > a:hover,
+  .site-navbar > ul > li > a:active {
+    background: #f5f5f5 !important;
+    color: #B51C2E !important;
+  }
+  .site-navbar > ul > .nav-cta-item-mobile > a {
+    color: #B51C2E !important;
+    font-weight: 700 !important;
+  }
+  /* Overflow */
+  html, body { overflow-x: clip !important; }
+  /* Footer */
+  .site-footer > div > div:first-child {
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+}
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
