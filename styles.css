@@ -7374,6 +7374,53 @@ nav.site-navbar ul li a {
   border-bottom: none !important;
 }
 
+@media (max-width: 768px) {
+.site-navbar {
+  padding: 0 16px !important;
+  height: 60px !important;
+}
+
+.site-navbar > ul {
+  display: none !important;
+}
+
+.site-navbar > .nav-cta-btn {
+  display: none !important;
+}
+
+.site-navbar > a img {
+  height: 50px !important;
+  max-height: 50px !important;
+}
+
+.site-navbar::after {
+  content: '\f0c9';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 24px;
+  color: #1a1a1a;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+}
+}
+
+@media (max-width: 768px) {
+body {
+  overflow-x: clip !important;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
