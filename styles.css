@@ -7905,6 +7905,56 @@ nav.site-navbar ul.mobile-open li a:hover {
 }
 }
 
+@media (max-width: 768px) {
+#layout-1779702910772 h1 {
+  font-size: 26px !important;
+  margin-bottom: 8px !important;
+}
+
+#layout-1779702910772 p {
+  font-size: 15px !important;
+  max-width: 280px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+}
+
+@media (max-width: 768px) {
+#layout-1779709879741 .container {
+  padding: 0 20px !important;
+}
+
+#layout-1779709879741 .container > p {
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+  padding: 0 !important;
+}
+
+#layout-1779709879741 .container > div {
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-top: 28px !important;
+}
+
+#layout-1779709879741 .elementor-button {
+  width: 100% !important;
+  max-width: 340px !important;
+  padding: 16px 20px !important;
+  font-size: 16px !important;
+  transform: none !important;
+}
+}
+
+@media (max-width: 768px) {
+#layout-1779702910772 p {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  display: block !important;
+}
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
