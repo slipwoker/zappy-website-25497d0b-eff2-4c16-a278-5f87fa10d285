@@ -7359,6 +7359,12 @@ nav.site-navbar ul li a:hover {
 /* /Zappy custom logo size */
 
 
+.site-footer div[style*="border-bottom"] {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 12px !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
