@@ -7370,6 +7370,10 @@ nav.site-navbar ul li a {
   padding-bottom: 4px !important;
 }
 
+.nav-cta-btn {
+  border-bottom: none !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
