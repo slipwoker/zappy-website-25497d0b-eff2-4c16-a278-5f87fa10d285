@@ -842,7 +842,7 @@
         </div>
     </section>
 
-    <section class="contact-section" style="background-color: #B51C2E">
+    <section class="contact-section" style="background-color: #B51C2E" id="contact-section">
         <div class="container">
             <div class="contact-layout">
                 <div class="contact-info">
@@ -851,29 +851,29 @@
                     
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1780467711695-9hy4bd82e" data-icon-type="fontawesome"></i>
                         </div>
                         <div class="contact-details">
                             <h3>טלפון</h3>
-                            <a href="https://wa.me/972587458008">0587458008</a>
-                        </div>
+                            <p class="zappy-editable"><a href="https://wa.me/972587458008">0587458008</a>
+                        </p></div>
                     </div>
 
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1780467711695-mb8652fd9" data-icon-type="fontawesome"></i>
                         </div>
                         <div class="contact-details">
                             <h3>אימייל</h3>
-                            <a href="mailto:robi@robi-steiner.co.il">robi@robi-steiner.co.il</a>
-                        </div>
+                            <p class="zappy-editable"><a href="mailto:robi@robi-steiner.co.il">robi@robi-steiner.co.il</a>
+                        </p></div>
                     </div>
 
                     
 
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
+                            <i class="fas fa-clock" data-element-type="icon" data-element-id="icon-1780467711695-orfjyssbj" data-icon-type="fontawesome"></i>
                         </div>
                         <div class="contact-details">
                             <h3>שעות פעילות</h3>
@@ -885,7 +885,7 @@
 
                 <div class="contact-form-container">
                     <h2>שלח לנו הודעה</h2>
-                    <p>מלא את הפרטים ונחזור אליך בהקדם</p>
+                    <p style="">מלא את הפרטים ונחזור אליך בהקדם</p>
                     <form class="contact-form" id="contactForm">
                         <div class="form-group">
                             <label for="name">שם מלא *</label>
@@ -909,17 +909,7 @@
 
                         <div class="form-group">
                             <label for="service">סוג השירות המבוקש</label>
-                            <select id="service" name="service">
-                                <option value="">בחר שירות</option>
-                                <option value="individual-coaching">קואצ'ינג אישי למנכ"לים</option>
-                                <option value="senior-management">תוכניות לניהול בכיר</option>
-                                <option value="organizational">תוכניות ארגוניות</option>
-                                <option value="workshops">סדנאות וימי עיון</option>
-                                <option value="change-management">ליווי בתהליכי שינוי</option>
-                                <option value="assessment">אבחון והערכת פוטנציאל</option>
-                                <option value="group-coaching">קואצ'ינג קבוצתי</option>
-                                <option value="other">אחר</option>
-                            </select>
+                            <select id="service" name="service" class="zappy-editable-dropdown"><option value="בחר-שירות">בחר שירות</option><option value="individual-coaching">הרצאות</option><option value="senior-management">סדנה חד יומית</option><option value="organizational">אימון אישי להנהלה בכירה</option><option value="workshops">סדנה מנהיגות פנים ארגונית</option><option value="change-management">היוועצות טלפונית</option><option value="other">אחר</option></select>
                         </div>
 
                         <div class="form-group">
@@ -927,7 +917,7 @@
                             <textarea id="message" name="message" rows="5"></textarea>
                         </div>
 
-                        <button type="submit" class="btn-primary">שלח הודעה</button>
+                        <button type="submit" class="btn-primary" data-element-type="button" data-element-id="btn-1780467711693-wim3plumw" data-native-element="true">שלח הודעה</button>
                     </form>
                 </div>
             </div>
