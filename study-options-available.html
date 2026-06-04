@@ -1076,285 +1076,190 @@
 
 
 
+
+
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
 .study-Options-Available-oneday-section {
   background-color: var(--bg-light);
   color: var(--text-dark);
-  padding: 100px 24px 80px;
+  padding: 80px 16px;
   position: relative;
   overflow: visible;
   direction: rtl;
 }
 
-.study-Options-Available-oneday-section .iga-container {
+.study-Options-Available-oneday-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 64px;
-}
-
-/* ---- Right Column: Image ---- */
-.study-Options-Available-oneday-section .iga-image-column {
-  flex: 0 0 45%;
-  position: relative;
-}
-
-.study-Options-Available-oneday-section .iga-image-wrapper {
-  position: relative;
-  display: inline-block;
   width: 100%;
 }
 
-.study-Options-Available-oneday-section .iga-decorative-stripe {
-  position: absolute;
-  top: 24px;
-  bottom: -24px;
-  inset-inline-end: -24px;
-  width: 100%;
-  background-color: var(--primary);
-  border-radius: 12px;
-  z-index: 0;
-}
-
-.study-Options-Available-oneday-section .iga-team-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  position: relative;
-  z-index: 2;
-  object-fit: cover;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-}
-
-.study-Options-Available-oneday-section .iga-floating-stat {
-  position: absolute;
-  bottom: -20px;
-  inset-inline-start: -20px;
-  background-color: var(--bg-light);
-  border-radius: 12px;
-  padding: 16px 20px;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 120px;
-  border: 1px solid var(--border-light);
-}
-
-.study-Options-Available-oneday-section .iga-stat-number {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--primary);
-  line-height: 1.2;
-}
-
-.study-Options-Available-oneday-section .iga-stat-label {
-  font-size: 0.85rem;
-  color: var(--text-muted);
+.study-Options-Available-oneday-header {
   text-align: center;
-  line-height: 1.4;
-  margin-top: 4px;
+  margin-bottom: 48px;
 }
 
-/* ---- Left Column: Content ---- */
-.study-Options-Available-oneday-section .iga-content-column {
-  flex: 1 1 55%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.study-Options-Available-oneday-section .iga-badge {
-  display: inline-block;
-  background-color: rgba(181, 28, 46, 0.1);
-  color: var(--primary);
-  font-weight: 600;
-  font-size: 0.9rem;
-  padding: 6px 16px;
-  border-radius: 50px;
-  margin-bottom: 20px;
-  letter-spacing: 0.5px;
-}
-
-.study-Options-Available-oneday-section .iga-title {
+.study-Options-Available-oneday-title {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.3;
   color: var(--text-dark);
   margin: 0 0 16px 0;
-  text-align: start;
 }
 
-.study-Options-Available-oneday-section .iga-subtitle {
+.study-Options-Available-oneday-subtitle {
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--text-muted);
-  margin: 0 0 32px 0;
-  text-align: start;
-  max-width: 540px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-/* ---- Info Cards Grid ---- */
-.study-Options-Available-oneday-section .iga-info-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-  margin-bottom: 36px;
+.study-Options-Available-oneday-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  direction: rtl;
 }
 
-.study-Options-Available-oneday-section .iga-info-card {
-  background-color: #f9fafb;
+.study-Options-Available-oneday-card {
+  background-color: var(--bg-light);
   border: 1px solid var(--border-light);
-  border-radius: 12px;
-  padding: 20px 24px;
+  border-radius: 16px;
+  padding: 32px 24px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.study-Options-Available-oneday-section .iga-info-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+.study-Options-Available-oneday-card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
   border-color: var(--primary);
 }
 
-.study-Options-Available-oneday-section .iga-card-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.study-Options-Available-oneday-card-header {
+  margin-bottom: 24px;
 }
 
-.study-Options-Available-oneday-section .iga-card-emoji {
-  font-size: 1.5rem;
+.study-Options-Available-oneday-icon {
+  font-size: 2.5rem;
   line-height: 1;
+  margin-bottom: 16px;
+  display: block;
 }
 
-.study-Options-Available-oneday-section .iga-card-title {
-  font-size: 1.15rem;
+.study-Options-Available-oneday-card-title {
+  font-size: 1.375rem;
   font-weight: 600;
+  line-height: 1.4;
   color: var(--text-dark);
-  margin: 0;
+  margin: 0 0 12px 0;
 }
 
-.study-Options-Available-oneday-section .iga-card-desc {
-  font-size: 0.95rem;
+.study-Options-Available-oneday-card-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
   color: var(--text-muted);
-  line-height: 1.6;
   margin: 0;
-  text-align: start;
 }
 
-.study-Options-Available-oneday-section .iga-card-meta {
-  font-size: 0.8rem;
-  color: var(--secondary);
-  font-weight: 500;
-  margin-top: 4px;
+.study-Options-Available-oneday-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
 }
 
-/* ---- CTA Button ---- */
-.study-Options-Available-oneday-section .iga-cta-btn {
+.study-Options-Available-oneday-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.study-Options-Available-oneday-bullet {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.study-Options-Available-oneday-meta {
+  display: inline-block;
+  background-color: rgba(181, 28, 46, 0.08);
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  letter-spacing: 0.02em;
+}
+
+.study-Options-Available-oneday-cta {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   background-color: var(--primary);
   color: var(--text-light);
+  font-size: 0.875rem;
   font-weight: 600;
-  font-size: 1rem;
-  padding: 14px 32px;
-  border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.2s ease, transform 0.15s ease;
-  box-shadow: 0 4px 12px rgba(181, 28, 46, 0.3);
-  margin-top: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  align-self: flex-start;
+  border: none;
+  cursor: pointer;
 }
 
-.study-Options-Available-oneday-section .iga-cta-btn:hover {
-  background-color: #9a1827;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(181, 28, 46, 0.35);
+.study-Options-Available-oneday-cta:hover {
+  background-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(232, 67, 58, 0.3);
 }
 
-.study-Options-Available-oneday-section .iga-cta-arrow {
-  font-size: 1.2rem;
-  transition: transform 0.2s ease;
-}
-
-.study-Options-Available-oneday-section .iga-cta-btn:hover .iga-cta-arrow {
-  transform: translateX(-4px);
-}
-
-/* ---- Responsive ---- */
 @media (max-width: 768px) {
   .study-Options-Available-oneday-section {
-    padding: 80px 16px 60px;
+    padding: 48px 16px;
   }
 
-  .study-Options-Available-oneday-section .iga-container {
-    flex-direction: column;
-    gap: 48px;
+  .study-Options-Available-oneday-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
   }
 
-  .study-Options-Available-oneday-section .iga-image-column {
-    flex: 0 0 100%;
-    width: 100%;
-    order: -1;
+  .study-Options-Available-oneday-header {
+    margin-bottom: 32px;
   }
 
-  .study-Options-Available-oneday-section .iga-content-column {
-    flex: 1 1 100%;
-    width: 100%;
-    align-items: stretch;
+  .study-Options-Available-oneday-title {
+    font-size: 1.75rem;
   }
 
-  .study-Options-Available-oneday-section .iga-title {
-    font-size: 1.6rem;
+  .study-Options-Available-oneday-card {
+    padding: 24px 20px;
   }
 
-  .study-Options-Available-oneday-section .iga-subtitle {
-    font-size: 1rem;
-    max-width: 100%;
+  .study-Options-Available-oneday-icon {
+    font-size: 2rem;
   }
 
-  .study-Options-Available-oneday-section .iga-decorative-stripe {
-    top: 16px;
-    bottom: -16px;
-    inset-inline-end: -16px;
-  }
-
-  .study-Options-Available-oneday-section .iga-floating-stat {
-    bottom: -16px;
-    inset-inline-start: 16px;
-    padding: 12px 16px;
-    min-width: 100px;
-  }
-
-  .study-Options-Available-oneday-section .iga-stat-number {
-    font-size: 1.5rem;
-  }
-
-  .study-Options-Available-oneday-section .iga-cta-btn {
-    width: 100%;
-    justify-content: center;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .study-Options-Available-oneday-section .iga-container {
-    gap: 40px;
-  }
-
-  .study-Options-Available-oneday-section .iga-image-column {
-    flex: 0 0 42%;
-  }
-
-  .study-Options-Available-oneday-section .iga-content-column {
-    flex: 1 1 58%;
+  .study-Options-Available-oneday-card-title {
+    font-size: 1.25rem;
   }
 }
 </style>
@@ -1613,146 +1518,85 @@
 <section class="study-Options-Available-oneday-section" data-layout-spec="Study-Options-Available-oneday" id="zappy-section-2">
   <div class="study-Options-Available-oneday-container">
     <div class="study-Options-Available-oneday-header">
-      <h2>מסלולי ליווי אישי</h2>
-      <p>בחרו את המסלול המתאים ביותר לצרכים הארגוניים שלכם. כל מסלול כולל כלים מעשיים, ליווי צמוד ותוצאות מדידות.</p>
+      <h2 class="study-Options-Available-oneday-title">מסלולי ליווי והכשרה</h2>
+      <p class="study-Options-Available-oneday-subtitle">בחרו את המסלול המתאים ביותר לצרכי הארגון שלכם — כל אחד מהם מעניק כלים מעשיים לפיתוח מנהיגות, תהליכי עבודה ותרבות ארגונית מנצחת</p>
     </div>
 
     <div class="study-Options-Available-oneday-grid">
       <!-- Card 1 -->
       <article class="study-Options-Available-oneday-card">
-        <div class="study-Options-Available-oneday-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"></circle>
-            <path d="M16 8V16L21 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
+        <div class="study-Options-Available-oneday-card-header">
+          <div class="study-Options-Available-oneday-icon" aria-hidden="true">⚡</div>
+          <h3 class="study-Options-Available-oneday-card-title">סדנת יום מרוכז</h3>
+          <p class="study-Options-Available-oneday-card-desc">סדנה אינטנסיבית בת יום אחד המעניקה פרקטיקות מיידיות לשיפור הביצועים הניהוליים והארגוניים.</p>
         </div>
-        <h3>מסלול יום מרוכז</h3>
-        <p class="study-Options-Available-oneday-card-subtitle">מפגש אחד אינטנסיבי וממוקד</p>
-        <ul class="study-Options-Available-oneday-features">
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>אבחון ארגוני מעמיק</span>
+        <ul class="study-Options-Available-oneday-list">
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>כלים יישומיים לניהול אפקטיבי</span>
           </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>סדנת מנהיגות מעשית</span>
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>התמודדות עם אתגרים בזמן אמת</span>
           </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>תוכנית פעולה אישית</span>
-          </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>מפגש מעקב לאחר חודש</span>
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>חיזוק עבודת הצוות והסינרגיה</span>
           </li>
         </ul>
-        <a href="#contact" class="study-Options-Available-oneday-cta">קבעו פגישה</a>
+        <div class="study-Options-Available-oneday-meta">⏱️ 8 שעות אקדמיות</div>
+        <a href="#" class="study-Options-Available-oneday-cta">פרטים נוספים</a>
       </article>
 
       <!-- Card 2 -->
-      <article class="study-Options-Available-oneday-card study-Options-Available-oneday-card-featured">
-        <div class="study-Options-Available-oneday-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 4L20 12L28 14L22 20L24 28L16 24L8 28L10 20L4 14L12 12L16 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-          </svg>
+      <article class="study-Options-Available-oneday-card">
+        <div class="study-Options-Available-oneday-card-header">
+          <div class="study-Options-Available-oneday-icon" aria-hidden="true">🚀</div>
+          <h3 class="study-Options-Available-oneday-card-title">תוכנית עומק חודשית</h3>
+          <p class="study-Options-Available-oneday-card-desc">ליווי צמוד למשך חודש הכולל מפגשים שבועיים, תרגול מונחה והטמעת תהליכי מנהיגות מערכתית.</p>
         </div>
-        <span class="study-Options-Available-oneday-badge">המסלול המוביל</span>
-        <h3>מסלול ליווי רבעוני</h3>
-        <p class="study-Options-Available-oneday-card-subtitle">שלושה חודשי ליווי צמוד</p>
-        <ul class="study-Options-Available-oneday-features">
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>אבחון 360 מעלות</span>
+        <ul class="study-Options-Available-oneday-list">
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>תוכנית מותאמת אישית לארגון</span>
           </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>6 מפגשי אימון אישיים</span>
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>מפגשי אימון אישי וקבוצתי</span>
           </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>סדנאות צוות הנהלה</span>
-          </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>ליווי טלפוני שוטף</span>
-          </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>מדדי התקדמות חודשיים</span>
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>מדידה והערכת התקדמות</span>
           </li>
         </ul>
-        <a href="#contact" class="study-Options-Available-oneday-cta study-Options-Available-oneday-cta-primary">קבעו פגישה</a>
+        <div class="study-Options-Available-oneday-meta">📅 4 מפגשים + ליווי דיגיטלי</div>
+        <a href="#" class="study-Options-Available-oneday-cta">פרטים נוספים</a>
       </article>
 
       <!-- Card 3 -->
       <article class="study-Options-Available-oneday-card">
-        <div class="study-Options-Available-oneday-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="4" y="6" width="24" height="20" rx="2" stroke="currentColor" stroke-width="2"></rect>
-            <path d="M4 14H28" stroke="currentColor" stroke-width="2"></path>
-            <path d="M12 6V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M20 6V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
+        <div class="study-Options-Available-oneday-card-header">
+          <div class="study-Options-Available-oneday-icon" aria-hidden="true">🏆</div>
+          <h3 class="study-Options-Available-oneday-card-title">מסלול מנצחים שנתי</h3>
+          <p class="study-Options-Available-oneday-card-desc">שותפות אסטרטגית שנתית להטמעת תרבות מנהיגותית, בניית צוותי על והנעת הארגון לתוצאות יוצאות דופן.</p>
         </div>
-        <h3>מסלול שנתי אסטרטגי</h3>
-        <p class="study-Options-Available-oneday-card-subtitle">ליווי מתמשך לאורך השנה</p>
-        <ul class="study-Options-Available-oneday-features">
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>אפיון תרבות ארגונית</span>
+        <ul class="study-Options-Available-oneday-list">
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>ליווי אסטרטגי שוטף</span>
           </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>12 מפגשי אימון חודשיים</span>
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>סדנאות עומק רבעוניות</span>
           </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>פיתוח צוותי מנהיגות</span>
-          </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>גישה ישירה 24/7</span>
-          </li>
-          <li>
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 10.5L8 14.5L16 6.5" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-            <span>דוח סיכום שנתי מקיף</span>
+          <li class="study-Options-Available-oneday-list-item">
+            <span class="study-Options-Available-oneday-bullet">✓</span>
+            <span>גישה בלעדית למשאבים וכלים</span>
           </li>
         </ul>
-        <a href="#contact" class="study-Options-Available-oneday-cta">קבעו פגישה</a>
+        <div class="study-Options-Available-oneday-meta">🌟 תוכנית הדגל שלנו</div>
+        <a href="#" class="study-Options-Available-oneday-cta">פרטים נוספים</a>
       </article>
-    </div>
-
-    <!-- Decorative supporting image -->
-    <div class="study-Options-Available-oneday-image-wrapper">
-      <img data-context="A professional leadership coaching session in a modern Israeli office, a senior executive and coach discussing strategy near a whiteboard with diagrams, warm professional lighting, clean corporate aesthetic" width="600" height="400" src="/assets/be-a-winner-section-Study-Options-Available-oneday-study-Options-Available-oneday-image-1.webp" alt="פגישת ליווי מנהיגות מקצועית">
     </div>
   </div>
 </section>
