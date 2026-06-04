@@ -7683,6 +7683,26 @@ nav.site-navbar ul li a {
   padding-bottom: 22px !important;
 }
 
+.lectures-faq-section .lectures-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease, padding 0.25s ease;
+}
+
+.lectures-faq-section .lectures-faq-item.active .lectures-faq-answer {
+  max-height: 800px !important;
+  opacity: 1 !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+
+.lectures-faq-section .lectures-faq-question {
+  cursor: pointer;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
