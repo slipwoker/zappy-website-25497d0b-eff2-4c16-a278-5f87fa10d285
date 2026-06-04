@@ -7677,6 +7677,12 @@ nav.site-navbar ul li a {
   }
 }
 
+.lectures-faq-section .lectures-faq-item.active .lectures-faq-answer {
+  max-height: 500px !important;
+  opacity: 1 !important;
+  padding-bottom: 22px !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
