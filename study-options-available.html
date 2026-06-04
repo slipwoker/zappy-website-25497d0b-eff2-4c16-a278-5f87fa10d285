@@ -1068,276 +1068,216 @@
 
 
 
+
+
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
 .study-Options-Available-oneday-section {
   background-color: var(--bg-light);
   color: var(--text-dark);
-  padding: 80px 24px 100px;
+  padding: 120px 24px 80px;
   position: relative;
-  overflow: hidden;
-}
-
-.study-Options-Available-oneday-section__container {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-}
-
-/* Header */
-.study-Options-Available-oneday-section__header {
-  text-align: center;
-  margin-bottom: 64px;
-}
-
-.study-Options-Available-oneday-section__title {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--text-dark);
-  margin-bottom: 16px;
-  position: relative;
-  display: inline-block;
-}
-
-.study-Options-Available-oneday-section__title::after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 4px;
-  background-color: var(--primary);
-  border-radius: 2px;
-}
-
-.study-Options-Available-oneday-section__subtitle {
-  font-size: 1.125rem;
-  color: var(--text-muted);
-  line-height: 1.7;
-  max-width: 600px;
-  margin: 24px auto 0;
-}
-
-/* Grid */
-.study-Options-Available-oneday-section__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  overflow: visible;
   direction: rtl;
 }
 
-/* Card */
-.study-Options-Available-oneday-section__card {
-  background-color: var(--bg-light);
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.study-Options-Available-oneday-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  border: 1px solid var(--border-light);
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
 }
 
-.study-Options-Available-oneday-section__card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+/* Media column */
+.study-Options-Available-oneday-media {
+  flex: 1 1 50%;
+  min-width: 0;
 }
 
-/* Card Media */
-.study-Options-Available-oneday-section__card-media {
+.study-Options-Available-oneday-video-wrapper {
   position: relative;
-  height: 200px;
+  border-radius: 16px;
   overflow: hidden;
+  box-shadow: var(--shadow-card);
+  aspect-ratio: 3 / 2;
+  background-color: #f3f4f6;
 }
 
-.study-Options-Available-oneday-section__card-bg {
+.study-Options-Available-oneday-video-wrapper img {
   width: 100%;
   height: 100%;
-  background-color: var(--secondary);
-  transition: transform 0.6s ease;
+  object-fit: cover;
+  display: block;
 }
 
-.study-Options-Available-oneday-section__card:hover .study-Options-Available-oneday-section__card-bg {
-  transform: scale(1.05);
-}
-
-.study-Options-Available-oneday-section__card-bg--abstract {
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
-  opacity: 0.9;
-}
-
-.study-Options-Available-oneday-section__card-badge {
+.study-Options-Available-oneday-play-button {
   position: absolute;
-  top: 16px;
-  inset-inline-end: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
   background-color: var(--primary);
   color: var(--text-light);
-  padding: 8px 16px;
-  border-radius: 30px;
-  font-size: 0.875rem;
-  font-weight: 600;
-  box-shadow: 0 4px 12px rgba(181, 28, 46, 0.3);
-  z-index: 5;
-}
-
-/* Card Body */
-.study-Options-Available-oneday-section__card-body {
-  padding: 32px 28px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  text-align: right;
-}
-
-.study-Options-Available-oneday-section__card-icon {
-  width: 48px;
-  height: 48px;
-  background-color: rgba(181, 28, 46, 0.08);
-  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary);
-  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 8px 24px rgba(181, 28, 46, 0.4);
+  z-index: 2;
 }
 
-.study-Options-Available-oneday-section__card-title {
-  font-size: 1.375rem;
-  font-weight: 600;
-  line-height: 1.4;
-  color: var(--text-dark);
-  margin-bottom: 8px;
+.study-Options-Available-oneday-play-button svg {
+  width: 28px;
+  height: 28px;
+  margin-inline-start: 4px;
 }
 
-.study-Options-Available-oneday-section__card-subtitle {
-  font-size: 0.875rem;
-  color: var(--primary);
-  font-weight: 500;
-  margin-bottom: 16px;
-  line-height: 1.6;
+.study-Options-Available-oneday-play-button:hover {
+  background-color: var(--accent);
+  transform: translate(-50%, -50%) scale(1.08);
 }
 
-.study-Options-Available-oneday-section__card-text {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--text-dark);
-  margin-bottom: 20px;
-  flex-grow: 1;
-}
-
-.study-Options-Available-oneday-section__card-audience {
-  font-size: 0.875rem;
-  color: var(--text-muted);
-  font-weight: 500;
-  background-color: rgba(0, 0, 0, 0.03);
-  padding: 12px 16px;
-  border-radius: 8px;
-  margin-top: auto;
+/* Text content column */
+.study-Options-Available-oneday-content {
+  flex: 1 1 50%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   text-align: right;
 }
 
-/* CTA Footer */
-.study-Options-Available-oneday-section__cta {
-  text-align: center;
-  margin-top: 80px;
-  padding: 48px 24px;
-  background: linear-gradient(135deg, var(--bg-dark) 0%, #2a2a2a 100%);
-  border-radius: 24px;
-  color: var(--text-light);
-  position: relative;
-  overflow: hidden;
+.study-Options-Available-oneday-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: var(--text-dark);
+  margin: 0 0 20px 0;
+  text-align: right;
 }
 
-.study-Options-Available-oneday-section__cta::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle at 30% 70%, rgba(181, 28, 46, 0.15) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-.study-Options-Available-oneday-section__cta-title {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--text-light);
-  margin-bottom: 12px;
-  position: relative;
-  z-index: 2;
-}
-
-.study-Options-Available-oneday-section__cta-text {
-  font-size: 1.125rem;
+.study-Options-Available-oneday-subtitle {
+  font-size: 1rem;
   line-height: 1.7;
-  color: var(--border-dark);
-  margin-bottom: 32px;
-  position: relative;
-  z-index: 2;
+  color: var(--text-muted);
+  margin: 0 0 32px 0;
+  text-align: right;
+  max-width: 540px;
 }
 
-.study-Options-Available-oneday-section__cta-btn {
-  display: inline-block;
+.study-Options-Available-oneday-features {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 36px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.study-Options-Available-oneday-feature-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-dark);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.study-Options-Available-oneday-check-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  color: var(--primary);
+}
+
+.study-Options-Available-oneday-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary);
   color: var(--text-light);
+  font-size: 1rem;
   font-weight: 600;
-  font-size: 1.125rem;
-  padding: 16px 40px;
-  border-radius: 50px;
+  padding: 16px 36px;
+  border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-  position: relative;
-  z-index: 2;
-  box-shadow: 0 8px 24px rgba(181, 28, 46, 0.35);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 14px rgba(181, 28, 46, 0.3);
+  text-align: center;
+  line-height: 1.2;
 }
 
-.study-Options-Available-oneday-section__cta-btn:hover {
+.study-Options-Available-oneday-cta:hover {
   background-color: var(--accent);
-  transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(232, 67, 58, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(181, 28, 46, 0.4);
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  .study-Options-Available-oneday-section__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media (max-width: 768px) {
   .study-Options-Available-oneday-section {
     padding: 100px 16px 60px;
   }
 
-  .study-Options-Available-oneday-section__title {
-    font-size: 2.2rem;
+  .study-Options-Available-oneday-container {
+    flex-direction: column;
+    gap: 40px;
   }
 
-  .study-Options-Available-oneday-section__grid {
-    grid-template-columns: 1fr !important;
-    gap: 24px;
+  .study-Options-Available-oneday-media {
+    flex: 1 1 auto;
+    width: 100%;
   }
 
-  .study-Options-Available-oneday-section__card-media {
-    height: 180px;
+  .study-Options-Available-oneday-content {
+    flex: 1 1 auto;
+    width: 100%;
+    align-items: stretch;
   }
 
-  .study-Options-Available-oneday-section__card-body {
-    padding: 24px 20px;
+  .study-Options-Available-oneday-title {
+    font-size: 2rem;
+    text-align: right;
   }
 
-  .study-Options-Available-oneday-section__cta {
-    margin-top: 48px;
-    padding: 32px 16px;
+  .study-Options-Available-oneday-subtitle {
+    text-align: right;
+    max-width: none;
   }
 
-  .study-Options-Available-oneday-section__cta-title {
-    font-size: 1.5rem;
+  .study-Options-Available-oneday-features {
+    max-width: none;
+  }
+
+  .study-Options-Available-oneday-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .study-Options-Available-oneday-play-button {
+    width: 56px;
+    height: 56px;
+  }
+
+  .study-Options-Available-oneday-play-button svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .study-Options-Available-oneday-container {
+    gap: 40px;
+  }
+
+  .study-Options-Available-oneday-title {
+    font-size: 2.4rem;
   }
 }
 </style>
@@ -1502,92 +1442,40 @@
 
 
 
-<section class="study-Options-Available-oneday-section" data-layout-spec="Study-Options-Available-oneday" dir="rtl" data-zappy-section="true" id="ai-section-1779534733259-ucipzr7">
-  <div class="study-Options-Available-oneday-section__container">
-    
-    <header class="study-Options-Available-oneday-section__header">
-      <h1 class="study-Options-Available-oneday-section__title">מסלולי פיתוח מנהיגות – יום אחד</h1>
-      <p class="study-Options-Available-oneday-section__subtitle">תוכניות ממוקדות להטמעת השיטה המעשית במהירות, עם תוצאות מיידיות לצוות הניהול הבכיר</p>
-    </header>
-
-    <div class="study-Options-Available-oneday-section__grid">
-      
-      <!-- Card 1 -->
-      <article class="study-Options-Available-oneday-section__card">
-        <div class="study-Options-Available-oneday-section__card-media">
-          <div class="study-Options-Available-oneday-section__card-bg" style="background-image: url('assets/be-a-winner-section-Study-Options-Available-oneday-study-Options-Available-oneday-image-1.webp'); background-size: cover; background-position: center;"></div>
-          <div class="study-Options-Available-oneday-section__card-badge">
-            <span class="study-Options-Available-oneday-section__card-duration">4 שעות</span>
-          </div>
+<section class="study-Options-Available-oneday-section" data-layout-spec="Study-Options-Available-oneday" data-hero-type="side-by-side" id="ai-section-1779534733259-ucipzr7">
+  <div class="study-Options-Available-oneday-container">
+    <!-- Video Placeholder Column -->
+    <div class="study-Options-Available-oneday-media">
+      <div class="study-Options-Available-oneday-video-wrapper">
+        <img data-context="Professional leadership workshop video thumbnail showing a diverse executive team engaged in a strategic planning session, modern boardroom setting, warm lighting, focused expressions, charts and whiteboard in background, cinematic composition suitable for Be a winner leadership development program" width="600" height="400" src="/assets/be-a-winner-section-Study-Options-Available-oneday-study-Options-Available-oneday-image-1.webp" alt="סרטון הדגמה של סדנת מנהיגות מעשית - צוות בכיר בתהליך פיתוח אסטרטגי">
+        <div class="study-Options-Available-oneday-play-button" aria-label="הפעל סרטון">
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 5v14l11-7z"></path>
+          </svg>
         </div>
-        <div class="study-Options-Available-oneday-section__card-body">
-          <div class="study-Options-Available-oneday-section__card-icon" data-element-type="icon" data-icon-type="svg">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-              <polyline points="22 4 12 14.01 9 11.01"></polyline>
-            </svg>
-          </div>
-          <h3 class="study-Options-Available-oneday-section__card-title">סדנת חשיפה – ניהול מבוסס תוצאות</h3>
-          <p class="study-Options-Available-oneday-section__card-subtitle">הכרות מעשית עם עקרונות הליבה של השיטה</p>
-          <p class="study-Options-Available-oneday-section__card-text">סדנה אינטנסיבית בת חצי יום המקנה למנכ"לים ולבכירים כלים פרקטיים לניהול ממוקד מטרות. המשתתפים יתנסו במודלים יישומיים ויקבלו תובנות שניתן ליישם באופן מיידי בארגון.</p>
-          <p class="study-Options-Available-oneday-section__card-audience">קהל יעד: מנכ"לים, סמנכ"לים, חברי הנהלה</p>
-        </div>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="study-Options-Available-oneday-section__card">
-        <div class="study-Options-Available-oneday-section__card-media">
-          <div class="study-Options-Available-oneday-section__card-bg study-Options-Available-oneday-section__card-bg--abstract"></div>
-          <div class="study-Options-Available-oneday-section__card-badge">
-            <span class="study-Options-Available-oneday-section__card-duration">8 שעות</span>
-          </div>
-        </div>
-        <div class="study-Options-Available-oneday-section__card-body">
-          <div class="study-Options-Available-oneday-section__card-icon" data-element-type="icon" data-icon-type="svg">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <path d="M12 6v6l4 2"></path>
-            </svg>
-          </div>
-          <h3 class="study-Options-Available-oneday-section__card-title">יום עיון – מנהיגות בעידן של שינוי</h3>
-          <p class="study-Options-Available-oneday-section__card-subtitle">התאמת סגנון הניהול למציאות העסקית המשתנה</p>
-          <p class="study-Options-Available-oneday-section__card-text">יום מלא של למידה חווייתית המשלב הרצאות, תרגילים קבוצתיים וסימולציות ניהוליות. המשתתפים יפתחו גמישות מחשבתית וירכשו כלים להובלת צוותים בתנאי אי-ודאות, תוך שמירה על מיקוד בתוצאות.</p>
-          <p class="study-Options-Available-oneday-section__card-audience">קהל יעד: דירקטורים, מנהלי חטיבות, מובילי פרויקטים אסטרטגיים</p>
-        </div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="study-Options-Available-oneday-section__card">
-        <div class="study-Options-Available-oneday-section__card-media">
-          <div class="study-Options-Available-oneday-section__card-bg study-Options-Available-oneday-section__card-bg--abstract"></div>
-          <div class="study-Options-Available-oneday-section__card-badge">
-            <span class="study-Options-Available-oneday-section__card-duration">6 שעות</span>
-          </div>
-        </div>
-        <div class="study-Options-Available-oneday-section__card-body">
-          <div class="study-Options-Available-oneday-section__card-icon" data-element-type="icon" data-icon-type="svg">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-              <circle cx="9" cy="7" r="4"></circle>
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-            </svg>
-          </div>
-          <h3 class="study-Options-Available-oneday-section__card-title">קליניקת ניהול – פתרון אתגרים בזמן אמת</h3>
-          <p class="study-Options-Available-oneday-section__card-subtitle">ניתוח מקרי בוחן מהשטח עם ליווי מקצועי צמוד</p>
-          <p class="study-Options-Available-oneday-section__card-text">מפגש ייעודי בו המשתתפים מביאים אתגרים ניהוליים אמיתיים מהארגון שלהם, ומקבלים כלים מותאמים אישית להתמודדות. הפורמט האינטימי מאפשר דיון מעמיק ולמידה עמיתים משמעותית בקבוצה קטנה של בכירים.</p>
-          <p class="study-Options-Available-oneday-section__card-audience">קהל יעד: בעלי תפקידי מפתח, מנהלים בדרג הביניים-בכיר</p>
-        </div>
-      </article>
-
+      </div>
     </div>
 
-    <footer class="study-Options-Available-oneday-section__cta">
-      <h2 class="study-Options-Available-oneday-section__cta-title">מוכנים להצעיד את הארגון קדימה?</h2>
-      <p class="study-Options-Available-oneday-section__cta-text">בחרו את המסלול המתאים והתחילו עוד היום</p>
-      <a href="/contact" class="study-Options-Available-oneday-section__cta-btn">לתיאום פגישת ייעוץ</a>
-    </footer>
-
+    <!-- Text Content Column -->
+    <div class="study-Options-Available-oneday-content">
+      <h1 class="study-Options-Available-oneday-title">השיטה המעשית לפיתוח מנהיגות</h1>
+      <p class="study-Options-Available-oneday-subtitle">תוכנית חד-יומית אינטנסיבית המיועדת למנכ"לים ומנהלים בכירים המבקשים לחזק את יכולות ההובלה, לקבל כלים פרקטיים ולהניע את הארגון קדימה.</p>
+      <div class="study-Options-Available-oneday-features">
+        <div class="study-Options-Available-oneday-feature-item">
+          <svg data-element-type="icon" data-icon-type="svg" class="study-Options-Available-oneday-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span>כלים יישומיים ליישום מיידי בארגון</span>
+        </div>
+        <div class="study-Options-Available-oneday-feature-item">
+          <svg data-element-type="icon" data-icon-type="svg" class="study-Options-Available-oneday-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span>ליווי אישי ומשוב מקצועי לאורך היום</span>
+        </div>
+        <div class="study-Options-Available-oneday-feature-item">
+          <svg data-element-type="icon" data-icon-type="svg" class="study-Options-Available-oneday-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span>מתודולוגיה מוכחת עם אלפי בוגרים</span>
+        </div>
+      </div>
+      <a href="#contact" class="study-Options-Available-oneday-cta">קבע פגישת ייעוץ</a>
+    </div>
   </div>
 </section>
 
