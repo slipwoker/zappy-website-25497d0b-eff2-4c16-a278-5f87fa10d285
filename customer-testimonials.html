@@ -4054,6 +4054,8 @@ img[data-no-hero-position] { position: static !important; }
 }
 </style>
 
+
+
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
 .customer-Testimonials-layout-section {
@@ -4067,148 +4069,168 @@ img[data-no-hero-position] { position: static !important; }
 .customer-Testimonials-layout-section__container {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .customer-Testimonials-layout-section__header {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 
-.customer-Testimonials-layout-section__title {
+.customer-Testimonials-layout-section__header h2 {
   font-size: 2rem;
   font-weight: 600;
-  line-height: 1.3;
   color: var(--text-dark);
-  margin: 0 0 12px 0;
-  text-align: center;
+  margin-bottom: 12px;
+  line-height: 1.3;
 }
 
-.customer-Testimonials-layout-section__subtitle {
+.customer-Testimonials-layout-section__header p {
   font-size: 1rem;
-  line-height: 1.7;
   color: var(--text-muted);
-  margin: 0;
-  text-align: center;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .customer-Testimonials-layout-section__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  direction: rtl;
+  align-items: stretch;
 }
 
 .customer-Testimonials-layout-section__card {
-  background-color: var(--bg-light);
-  border: 1px solid var(--border-light);
-  border-radius: 16px;
-  padding: 32px 24px 24px;
+  background: var(--bg-light);
+  border-radius: 24px;
+  padding: 40px 32px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+  border: 1px solid var(--border-light);
 }
 
 .customer-Testimonials-layout-section__card:hover {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-  transform: translateY(-4px);
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.05);
 }
 
-.customer-Testimonials-layout-section__card-image-wrapper {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: 20px;
-  border: 3px solid var(--primary);
-  flex-shrink: 0;
+.customer-Testimonials-layout-section__card-quote-icon {
+  color: var(--primary);
+  opacity: 0.2;
+  margin-bottom: 24px;
+  transform: scaleX(-1);
 }
 
-.customer-Testimonials-layout-section__card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.customer-Testimonials-layout-section__card-quote {
-  margin: 0 0 20px 0;
-  padding: 0;
-  border: none;
+.customer-Testimonials-layout-section__card blockquote {
+  margin: 0 0 32px 0;
   flex-grow: 1;
 }
 
-.customer-Testimonials-layout-section__card-quote p {
+.customer-Testimonials-layout-section__card blockquote p {
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.8;
   color: var(--text-dark);
+  font-style: normal;
+  text-align: start;
   margin: 0;
-  font-style: italic;
-  position: relative;
-  padding-top: 16px;
 }
 
-.customer-Testimonials-layout-section__card-quote p::before {
-  content: '"';
-  font-size: 3rem;
-  color: var(--primary);
-  font-weight: bold;
-  line-height: 0;
-  display: block;
-  margin-bottom: 12px;
-  font-family: serif;
-}
-
-.customer-Testimonials-layout-section__card-footer {
+.customer-Testimonials-layout-section__card-author {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 16px;
+  margin-top: auto;
   border-top: 1px solid var(--border-light);
-  padding-top: 16px;
-  width: 100%;
+  padding-top: 24px;
 }
 
-.customer-Testimonials-layout-section__card-name {
-  font-size: 1.1rem;
+.customer-Testimonials-layout-section__card-author-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  border: 2px solid var(--primary);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.customer-Testimonials-layout-section__card-author-info {
+  text-align: start;
+}
+
+.customer-Testimonials-layout-section__card-author-info strong {
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--text-dark);
+  display: block;
   line-height: 1.4;
 }
 
-.customer-Testimonials-layout-section__card-role {
-  font-size: 0.875rem;
-  line-height: 1.6;
+.customer-Testimonials-layout-section__card-author-info span {
+  font-size: 0.75rem;
   color: var(--text-muted);
+  display: block;
+  margin-top: 4px;
 }
 
+/* Decorative background element */
+.customer-Testimonials-layout-section::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  inset-inline-end: -100px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(181,28,46,0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.customer-Testimonials-layout-section::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  inset-inline-start: -80px;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(46,91,138,0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Mobile Styles */
 @media (max-width: 768px) {
   .customer-Testimonials-layout-section {
     padding: 60px 16px;
   }
 
   .customer-Testimonials-layout-section__header {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
 
-  .customer-Testimonials-layout-section__title {
+  .customer-Testimonials-layout-section__header h2 {
     font-size: 1.75rem;
   }
 
   .customer-Testimonials-layout-section__grid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     gap: 24px;
   }
 
   .customer-Testimonials-layout-section__card {
-    padding: 24px 20px 20px;
+    padding: 32px 24px;
   }
 
-  .customer-Testimonials-layout-section__card-image-wrapper {
-    width: 80px;
-    height: 80px;
+  .customer-Testimonials-layout-section__card-author-img {
+    width: 48px;
+    height: 48px;
   }
 }
 </style>
@@ -4390,52 +4412,61 @@ img[data-no-hero-position] { position: static !important; }
 </section>
 
 
-<section class="customer-Testimonials-layout-section" data-layout-spec="Customer-Testimonials-layout" dir="rtl" id="layout-1779870953394">
+<section class="customer-Testimonials-layout-section" data-layout-spec="Customer-Testimonials-layout" dir="rtl" data-zappy-section="true" id="layout-1779870953394">
   <div class="customer-Testimonials-layout-section__container">
     <div class="customer-Testimonials-layout-section__header">
-      <h2 class="customer-Testimonials-layout-section__title">מה אומרים הלקוחות שלנו</h2>
-      <p class="customer-Testimonials-layout-section__subtitle">ההצלחה של המשתתפים בתוכניות שלנו היא ההוכחה הטובה ביותר לשיטה</p>
+      <h2>מה אומרים הלקוחות שלנו</h2>
+      <p>ההצלחה של המשתתפים בתוכניות שלנו היא ההוכחה הטובה ביותר לשיטה</p>
     </div>
-
+    
     <div class="customer-Testimonials-layout-section__grid">
       
+      <!-- Card 1 -->
       <article class="customer-Testimonials-layout-section__card">
-        <div class="customer-Testimonials-layout-section__card-image-wrapper">
-          <img data-context="Portrait of a confident Israeli CEO in his 40s, wearing a business casual blazer, smiling warmly, professional headshot style with soft studio lighting" width="120" height="120" src="/assets/be-a-winner-section-Customer-Testimonials-layout-customer-Testimonials-layout-image-1.webp" alt="דיוקן של מנכ&quot;ל ישראלי מחייך" class="customer-Testimonials-layout-section__card-image">
+        <div class="customer-Testimonials-layout-section__card-quote-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
         </div>
-        <blockquote class="customer-Testimonials-layout-section__card-quote">
+        <blockquote>
           <p>"השיטה של 'Be a winner' שינתה לחלוטין את הדרך שבה אני מוביל את הארגון שלי. תוך חודשיים בלבד ראיתי שיפור של 40% במעורבות העובדים ובתוצאות העסקיות. כלים פרקטיים שאפשר ליישם מהיום הראשון."</p>
         </blockquote>
-        <footer class="customer-Testimonials-layout-section__card-footer">
-          <strong class="customer-Testimonials-layout-section__card-name">אורי כהן</strong>
-          <span class="customer-Testimonials-layout-section__card-role">מנכ"ל, טכנולוגיות מתקדמות בע"מ</span>
-        </footer>
+        <div class="customer-Testimonials-layout-section__card-author">
+          <div class="customer-Testimonials-layout-section__card-author-img" style="background-image: url('assets/be-a-winner-section-Customer-Testimonials-layout-customer-Testimonials-layout-image-1.webp'); background-size: cover; background-position: center;"></div>
+          <div class="customer-Testimonials-layout-section__card-author-info">
+            <strong>מנכ"ל, טכנולוגיות מתקדמות בע"מ</strong>
+          </div>
+        </div>
       </article>
 
+      <!-- Card 2 -->
       <article class="customer-Testimonials-layout-section__card">
-        <div class="customer-Testimonials-layout-section__card-image-wrapper">
-          <img data-context="Professional headshot of an Israeli female executive in her late 30s, wearing a navy blazer, looking confident and approachable, neutral studio background" width="120" height="120" src="/assets/be-a-winner-section-Customer-Testimonials-layout-customer-Testimonials-layout-image-2.webp" alt="דיוקן של מנהלת בכירה ישראלית" class="customer-Testimonials-layout-section__card-image">
+        <div class="customer-Testimonials-layout-section__card-quote-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
         </div>
-        <blockquote class="customer-Testimonials-layout-section__card-quote">
+        <blockquote>
           <p>"כמנהלת בכירה, חיפשתי שיטה שתעזור לי לבנות צוות מנצח. 'Be a winner' נתנה לי את המסגרת הנכונה לפתח מנהיגים בתוך הארגון. כל מפגש היה חוויה מעשירה ומלמדת."</p>
         </blockquote>
-        <footer class="customer-Testimonials-layout-section__card-footer">
-          <strong class="customer-Testimonials-layout-section__card-name">מיכל לוי</strong>
-          <span class="customer-Testimonials-layout-section__card-role">סמנכ"לית תפעול, שירותי בריאות כללית</span>
-        </footer>
+        <div class="customer-Testimonials-layout-section__card-author">
+          <div class="customer-Testimonials-layout-section__card-author-img" style="background-image: url('assets/be-a-winner-section-Customer-Testimonials-layout-customer-Testimonials-layout-image-2.webp'); background-size: cover; background-position: center;"></div>
+          <div class="customer-Testimonials-layout-section__card-author-info">
+            <strong>סמנכ"לית תפעול, שירותי בריאות כללית</strong>
+          </div>
+        </div>
       </article>
 
+      <!-- Card 3 -->
       <article class="customer-Testimonials-layout-section__card">
-        <div class="customer-Testimonials-layout-section__card-image-wrapper">
-          <img data-context="Headshot of an Israeli senior executive man in his 50s with gray hair, wearing a sharp suit, exuding authority and wisdom, professional corporate portrait" width="120" height="120" src="/assets/be-a-winner-section-Customer-Testimonials-layout-customer-Testimonials-layout-image-3.webp" alt="דיוקן של מנהל בכיר ישראלי" class="customer-Testimonials-layout-section__card-image">
+        <div class="customer-Testimonials-layout-section__card-quote-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
         </div>
-        <blockquote class="customer-Testimonials-layout-section__card-quote">
+        <blockquote>
           <p>"אחרי 30 שנה בתפקידי ניהול, חשבתי שראיתי הכל. התוכנית של 'Be a winner' פתחה לי את העיניים לגישות חדשניות בפיתוח מנהיגות. ממליץ בחום לכל מנכ"ל שמעוניין לקחת את הארגון שלו לשלב הבא."</p>
         </blockquote>
-        <footer class="customer-Testimonials-layout-section__card-footer">
-          <strong class="customer-Testimonials-layout-section__card-name">דוד אברמוב</strong>
-          <span class="customer-Testimonials-layout-section__card-role">יו"ר, קבוצת אברמוב השקעות</span>
-        </footer>
+        <div class="customer-Testimonials-layout-section__card-author">
+          <div class="customer-Testimonials-layout-section__card-author-img" style="background-image: url('assets/be-a-winner-section-Customer-Testimonials-layout-customer-Testimonials-layout-image-3.webp'); background-size: cover; background-position: center;"></div>
+          <div class="customer-Testimonials-layout-section__card-author-info">
+            <strong>יו"ר, קבוצת אברמוב השקעות</strong>
+          </div>
+        </div>
       </article>
 
     </div>
