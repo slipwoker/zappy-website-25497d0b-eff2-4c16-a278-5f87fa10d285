@@ -13,9 +13,9 @@ https://leadership-coaching.co.il
 ### Page
 https://leadership-coaching.co.il/whats-unique-about-us
 
-### שירותי פיתוח מנהיגות לניהול בכיר — Be a winner - השיטה המעשית לפיתוח מנהיגות
-https://leadership-coaching.co.il/study-options-available
-גלה את מגוון שירותי הקואצ'ינג שלנו: קואצ'ינג למנכלים בישראל, תוכנית פיתוח מנהיגות לארגונים ועוד. התאם אישית!
+### אפשרויות לימוד | קואצ'ינג ופיתוח מנהיגות לניהול בכיר - Be a winner
+https://leadership-coaching.co.il/learning-opportunities
+גלו את אפשרויות הלימוד של Be a winner: הרצאות השראה, סדנאות יומיות מעשיות, ותהליך קבוצתי פנים ארגוני. קואצ'ינג מתקדם ותוכניות פיתוח מנהיגות לניהול בכיר.
 
 ### Page
 https://leadership-coaching.co.il/meet-the-team
@@ -33,10 +33,6 @@ https://leadership-coaching.co.il/manager-to-leader
 ### צור קשר לקואצ'ינג מקצועי — Be a winner - השיטה המעשית לפיתוח מנהיגות
 https://leadership-coaching.co.il/contact-us
 צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
-
-### אפשרויות לימוד
-https://leadership-coaching.co.il/learning-opportunities
-גלו את אפשרויות הלימוד של Be a winner: הרצאות השראה, סדנאות יומיות מעשיות, ותהליך קבוצתי פנים ארגוני. קואצ'ינג מתקדם ותוכניות פיתוח מנהיגות לניהול בכיר.
 
 ## Legal & Policy
 
@@ -66,9 +62,9 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
-  - `phone` (tel, required)
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
   - `company` (text)
   - `service` (select)
   - `message` (textarea)
