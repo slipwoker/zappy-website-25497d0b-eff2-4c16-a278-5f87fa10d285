@@ -8058,6 +8058,11 @@ nav.site-navbar ul li a {
   }
 }
 
+#zappy-section-3 .gallery-item[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
