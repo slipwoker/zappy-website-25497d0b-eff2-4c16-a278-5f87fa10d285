@@ -700,207 +700,201 @@
             })();
           </script>
         
+
+
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
 .what-Makes-Us-Unique-layout-section {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  padding: 120px 24px 80px;
   position: relative;
-  overflow: visible;
-  background-color: var(--bg-dark);
-  background-image:
-    radial-gradient(ellipse at 15% 25%, rgba(181, 28, 46, 0.18) 0%, transparent 60%),
-    radial-gradient(ellipse at 85% 75%, rgba(46, 91, 138, 0.12) 0%, transparent 60%),
-    radial-gradient(ellipse at 50% 50%, rgba(232, 67, 58, 0.08) 0%, transparent 70%),
-    linear-gradient(160deg, #1a1a1a 0%, #141414 100%);
-  color: var(--text-light);
-  padding: 120px 16px 140px;
+  overflow: hidden;
   direction: rtl;
   text-align: right;
 }
 
-.what-Makes-Us-Unique-layout-section__container {
+.what-Makes-Us-Unique-layout-section .unique-intro-container {
   max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
+  margin: 0 auto 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 48px;
+  gap: 60px;
+  flex-direction: row;
 }
 
-.what-Makes-Us-Unique-layout-section__content {
-  flex: 1 1 600px;
-  max-width: 650px;
-}
-
-.what-Makes-Us-Unique-layout-section__heading {
-  font-family: system-ui, sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--text-light);
-  margin: 0 0 24px 0;
-}
-
-.what-Makes-Us-Unique-layout-section__subtitle {
-  font-family: system-ui, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.7;
-  color: var(--text-light);
-  margin: 0 0 40px 0;
-  max-width: 580px;
-}
-
-.what-Makes-Us-Unique-layout-section__ctas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  align-items: center;
-}
-
-.what-Makes-Us-Unique-layout-section__btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: system-ui, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.2;
-  text-decoration: none;
-  padding: 16px 32px;
-  border-radius: 8px;
-  transition: all 0.25s ease;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.what-Makes-Us-Unique-layout-section__btn--primary {
-  background-color: var(--primary);
-  color: #ffffff;
-  border: 2px solid var(--primary);
-}
-
-.what-Makes-Us-Unique-layout-section__btn--primary:hover {
-  background-color: #9a1726;
-  border-color: #9a1726;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(181, 28, 46, 0.35);
-}
-
-.what-Makes-Us-Unique-layout-section__btn--secondary {
-  background-color: transparent;
-  color: var(--text-light);
-  border: 2px solid var(--border-dark);
-}
-
-.what-Makes-Us-Unique-layout-section__btn--secondary:hover {
-  border-color: var(--text-light);
-  background-color: rgba(255, 255, 255, 0.05);
-  transform: translateY(-2px);
-}
-
-.what-Makes-Us-Unique-layout-section__decor {
-  flex: 0 0 320px;
+.what-Makes-Us-Unique-layout-section .unique-intro-image-wrapper {
+  flex: 0 0 45%;
   position: relative;
-  height: 320px;
-  pointer-events: none;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+  transform: rotate(-1deg);
+  transition: transform 0.4s ease;
 }
 
-.what-Makes-Us-Unique-layout-section__shape {
-  position: absolute;
-  opacity: 0.14;
+.what-Makes-Us-Unique-layout-section .unique-intro-image-wrapper:hover {
+  transform: rotate(0deg) scale(1.02);
 }
 
-.what-Makes-Us-Unique-layout-section__shape--circle {
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  border: 3px solid var(--text-light);
-  top: 10px;
-  inset-inline-end: 0;
+.what-Makes-Us-Unique-layout-section .unique-intro-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
 }
 
-.what-Makes-Us-Unique-layout-section__shape--square {
-  width: 120px;
-  height: 120px;
-  border: 3px solid var(--primary);
-  bottom: 20px;
-  inset-inline-start: 30px;
-  transform: rotate(25deg);
+.what-Makes-Us-Unique-layout-section .unique-intro-text {
+  flex: 1;
 }
 
-.what-Makes-Us-Unique-layout-section__shape--triangle {
-  width: 0;
-  height: 0;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-bottom: 100px solid var(--accent);
-  top: 30px;
-  inset-inline-start: 0;
-  opacity: 0.1;
+.what-Makes-Us-Unique-layout-section .unique-main-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--text-dark);
+  position: relative;
+  padding-bottom: 24px;
+  margin: 0;
 }
 
-.what-Makes-Us-Unique-layout-section__divider-wrapper {
+.what-Makes-Us-Unique-layout-section .unique-main-heading::after {
+  content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  pointer-events: none;
-  z-index: 5;
+  right: 0;
+  width: 80px;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 2px;
 }
 
-.what-Makes-Us-Unique-layout-section__divider-wrapper svg {
-  display: block;
-  width: 100%;
+.what-Makes-Us-Unique-layout-section .unique-content-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  direction: rtl;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card {
+  background: var(--bg-light);
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  padding: 36px 32px;
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 20px 40px rgba(181,28,46,0.08);
+  transform: translateY(-4px);
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6px;
   height: 100%;
+  background: var(--primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 0 4px 4px 0;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card:hover::before {
+  opacity: 1;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+  flex-shrink: 0;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+  min-width: 60px;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card:hover .unique-card-number {
+  opacity: 1;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card-content {
+  flex: 1;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card-title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0 0 12px 0;
+}
+
+.what-Makes-Us-Unique-layout-section .unique-card-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .what-Makes-Us-Unique-layout-section {
-    padding: 100px 16px 120px;
+    padding: 100px 16px 60px;
   }
 
-  .what-Makes-Us-Unique-layout-section__container {
+  .what-Makes-Us-Unique-layout-section .unique-intro-container {
     flex-direction: column;
     gap: 32px;
-    align-items: flex-start;
+    margin-bottom: 48px;
   }
 
-  .what-Makes-Us-Unique-layout-section__content {
-    max-width: 100%;
-    flex: 1 1 auto;
-  }
-
-  .what-Makes-Us-Unique-layout-section__heading {
-    font-size: 2.25rem;
-  }
-
-  .what-Makes-Us-Unique-layout-section__subtitle {
-    max-width: 100%;
-    margin-bottom: 32px;
-  }
-
-  .what-Makes-Us-Unique-layout-section__ctas {
+  .what-Makes-Us-Unique-layout-section .unique-intro-image-wrapper {
+    flex: none;
     width: 100%;
-    flex-direction: column;
-    align-items: stretch;
+    transform: rotate(0deg);
   }
 
-  .what-Makes-Us-Unique-layout-section__btn {
-    width: 100%;
+  .what-Makes-Us-Unique-layout-section .unique-main-heading {
+    font-size: 2.5rem;
     text-align: center;
   }
 
-  .what-Makes-Us-Unique-layout-section__decor {
-    display: none;
+  .what-Makes-Us-Unique-layout-section .unique-main-heading::after {
+    right: 50%;
+    transform: translateX(50%);
   }
 
-  .what-Makes-Us-Unique-layout-section__divider-wrapper {
-    height: 60px;
+  .what-Makes-Us-Unique-layout-section .unique-content-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .what-Makes-Us-Unique-layout-section .unique-card {
+    padding: 24px 20px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .what-Makes-Us-Unique-layout-section .unique-card-number {
+    font-size: 2rem;
+    min-width: auto;
   }
 }
+
 </style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "25497d0b-eff2-4c16-a278-5f87fa10d285"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
@@ -947,67 +941,80 @@
   <ul style="list-style:none;margin:0;padding:0;display:flex;gap:8px;align-items:center;"><li><a href="/whats-unique-about-us" class="">מה ייחודי אצלנו?</a></li><li><a href="/learning-opportunities">אפשרויות לימוד</a></li><li><a href="/meet-the-team" class="">להכיר את הצוות</a></li><li><a href="/what-makes-us-unique">מה הופך אותנו ליחודיים</a></li><li><a href="/customer-testimonials" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:6px;">מה אומרים הלקוחות</a></li><li><a href="/communication-and-inspiration-performances" class="" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:4px;transition:color 0.3s ease;">הופעות בתקשרות והשראה</a></li><li><a href="/manager-to-leader" style="color:#1a1a1a;text-decoration:none;font-weight:500;padding:8px 12px;border-radius:6px;">ממנהל למנהיג - הספר</a></li><li class="nav-cta-item-mobile"><a href="/contact-us">צור קשר</a></li></ul>
   <a href="/contact-us" class="nav-cta-btn" style="background: #B51C2E; color: #ffffff; text-decoration: none; font-weight: 600; padding: 8px 18px; border-radius: 6px; white-space: nowrap; flex-shrink: 0; border-bottom: none">צור קשר</a>
 </nav><main>
-      <section class="what-Makes-Us-Unique-layout-section" data-layout-spec="What-Makes-Us-Unique-layout" data-hero-type="text-only" id="layout-1780814077235" style="background-color: rgb(250, 240, 241); background-image: none; position: relative; overflow: hidden; --zappy-bg-color: #FAF0F1;" data-zappy-bg-type="color" data-zappy-bg-color="#FAF0F1" data-zappy-bg-image="" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="30" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
-  <div class="what-Makes-Us-Unique-layout-section__container">
-    <div class="what-Makes-Us-Unique-layout-section__content">
-      <h1 class="what-Makes-Us-Unique-layout-section__heading" style=""><span style="color: #000000 !important">מה הופך אותנו ליחודיים</span></h1>
-      <p class="what-Makes-Us-Unique-layout-section__subtitle" style=""><span style="color: #ffffff !important"><span style="color: #000000 !important">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;מה הופך
-את Be A Winner לתהליך ייחודי בתחומו? <br><!--[if !supportLists]-->1.    
-<!--[endif]-->התוצאות - אנחנו מכווני תוצאות, ותוצאות הן לעולם דבר מדיד.
-שום תהליך, אישי או קבוצתי, לא יוצא לדרך לפני שהלקוח למד להגדיר לעצמו את התוצאות
-הרצויות עבורו, ולפני שווידאנו שאנחנו יודעים לקחת אותו לשם. ברוב המוחלט של
-המקרים הלקוח מפיק תוצאות שהן הרבה מעבר למה שמסוגל היה לדמיין. אנחנו מקיימים את
-מה שמבטיחים ומבטיחים רק את מה שמסוגים לקיים. <br><!--[if !supportLists]-->2.    
-<!--[endif]-->לא מתאים לכולם ואנחנו בודקים זאת מראש - אנחנו מצהירים מראש שאנחנו לא
-נכונים לכולם, ולא כולם נכונים לנו. מכיוון שיש לנו הרבה כבוד והערכה לזמן ולכסף
-של הלקוחות שלנו, אנחנו בודקים זאת מראש בתהליך הכרות קצר המורכב משני שלבים. הראשון,
-מילוי שאלון. השני פגישת הכרות. <br>
-
-לתהליך ההכרות יש כמה מטרות: 1. להכיר זה את זה טוב יותר. 2. לברר האם
-ואיזה ערך מוסף יש לנו עבורך? 3. לעזור ללקוח לחדד את הקשיים והאתגרים שלו. 4. ללמד
-את הלקוח להגדיר לעצמו תוצאות רצויות עבורו, ולבדוק האם אנחנו אכן יודעים לקחת
-אותו לאן שברצונו להגיע? בסוף תהליך ההכרות יש לכל אחד מהצדדים אפשרויות לבחור האם
-לצאת לדרך? הרשום כאן נכון הם לתהליך הקבוצתי והן לאישי.<br><!--[if !supportLists]-->3.    
-<!--[endif]-->התהליך הוליסטי - כלומר התהליך עוסק בקשיים והאתגרים של הלקוח הן
-בתחום האישי והן בתחום העסקי-מקצועי, וזה מהסיבה שהכל קשור להכל, ואין דרך להפריד
-ולא נכון להפריד. הניסיון המאוד עשיר שלנו מלמד שיכולתו של אדם ליצור שינוי עמוק
-ויסודי במקום הכי מאתגר עבורו, מאפשר לו לעשות זאת גם בכל תחום מתחומי חייו. <br><!--[if !supportLists]-->4.    
-<!--[endif]-->נשאר איתך לנצח - התהליך לא עוסק בהקניית ידע, כי אין לנו מה לחדש
-ללקוח בתחומי המומחיות שלו, אלא בהקניית כלים ומיומנויות שאין אותם למרבית האנשים.
-הכלים האלה נשארים עם הלקוח לנצח. ממש כמו ללמוד לרכב על אופניים, או ללמוד נהיגה,
-אין דרך לשכוח זאת. הם מאפשרים לו ליצור כל שינוי שחלם עליו, וגם כאלה שלא דמיין
-כלל שאפשריים עבורו, והכל באופן קל, פשוט, מהנה ובעיקר מעשי, תכלס. <br><!--[if !supportLists]-->5.    
-<!--[endif]-->אכפת לנו מהלקוח, באמת - ולכן אנחנו זמינים עבורו גם בין
-המפגשים, בטלפון או במייל. ובדיוק מהסיבה הזו אנחנו גם משחררים באהבה לקוחות שלא
-מסוגלים להביא את מידת הפתיחות והמחויבות הרצויים, המאפשרים לו להפיק את התוצאות שביקש
-עבורו. פשוט מפני שאכפת לנו מהלקוח, באמת.<br><!--[if !supportLists]-->6.    
-<!--[endif]-->חשיפה אישית - תהליכי הלימוד הארוכים, הן האישי והן של שדרת
-הניהול הפנים ארגוני, דורשים כנות מוחלטת וחשיפה אישית ברמה גבוהה. כי האישי
-והמקצועי כרוכים זה בזה, אין דרך להפריד, ולא נכון להפריד. אנחנו מחויבים כלפי
-הלקוח בדיסקרטיות מלאה. כל מה שביננו נשאר אך ורך ביננו. אמון הוא תנאי בסיסי
-לתהליך לימוד אפקטיבי.<br><!--[if !supportLists]-->7.    
-<!--[endif]-->הקניית מיומנויות ולא ידע - מיומנויות לא רוכשים בישיבה מאחורי
-שולחן, אלא בהתנסות, חוויה, משחק. ממש כמו לימוד נהיגה או רכיבה על אופניים. חווית
-לימוד עוצמתית היוצרת תהליך לימוד מואץ. <br><!--[if !supportLists]-->8.    
-<!--[endif]-->גישה אחרת ויוצאת דופן למושג המנהיגות - אנחנו מביאים איתנו גישה מאוד שונה
-ואחרת למושג המנהיגות, מזו המקובלת והנפוצה, שמתייחסת למנהיגות כאל מיומנות שכל
-אדם יכול ללמוד ולפתח, בשני תנאים: יש באדם את הפתיחות ללמוד וחשוב לו ללמוד. יש
-מאחורינו גם קבלות רבות שאנחנו יודעים על מה אנחנו מדברים.&nbsp; &nbsp; &nbsp; &nbsp;</span></span></p>
-      <div class="what-Makes-Us-Unique-layout-section__ctas">
-        
-        
-      </div>
+      <section class="what-Makes-Us-Unique-layout-section" data-layout-spec="What-Makes-Us-Unique-layout" dir="rtl" data-zappy-section="true" id="layout-1780814077235">
+  <div class="unique-intro-container">
+    <div class="unique-intro-image-wrapper">
+      <img data-placeholder="what-Makes-Us-Unique-layout-image-1" data-context="מנכ" ל="" או="" מנהל="" בכיר="" עומד="" בביטחון="" על="" רקע="" נוף="" אורבני="" מודרני,="" מפגין="" מנהיגות="" וחזון,="" אווירה="" של="" הצלחה="" וחדשנות"="" width="600" height="400" src="" alt="מנהיגות וחדשנות" class="unique-intro-image" style="object-fit: cover; object-position: center;">
     </div>
-    <div class="what-Makes-Us-Unique-layout-section__decor">
-      <div class="what-Makes-Us-Unique-layout-section__shape what-Makes-Us-Unique-layout-section__shape--circle"></div>
-      <div class="what-Makes-Us-Unique-layout-section__shape what-Makes-Us-Unique-layout-section__shape--square"></div>
-      <div class="what-Makes-Us-Unique-layout-section__shape what-Makes-Us-Unique-layout-section__shape--triangle"></div>
+    <div class="unique-intro-text">
+      <h1 class="unique-main-heading">מה הופך אותנו ליחודיים</h1>
     </div>
   </div>
-  <div class="what-Makes-Us-Unique-layout-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="#1a1a1a"></path>
-    </svg>
+
+  <div class="unique-content-grid">
+    <article class="unique-card">
+      <span class="unique-card-number">01</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">התוצאות</h3>
+        <p class="unique-card-text">אנחנו מכווני תוצאות, ותוצאות הן לעולם דבר מדיד. שום תהליך, אישי או קבוצתי, לא יוצא לדרך לפני שהלקוח למד להגדיר לעצמו את התוצאות הרצויות עבורו, ולפני שווידאנו שאנחנו יודעים לקחת אותו לשם. ברוב המוחלט של המקרים הלקוח מפיק תוצאות שהן הרבה מעבר למה שמסוגל היה לדמיין. אנחנו מקיימים את מה שמבטיחים ומבטיחים רק את מה שמסוגים לקיים.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">02</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">לא מתאים לכולם ואנחנו בודקים זאת מראש</h3>
+        <p class="unique-card-text">אנחנו מצהירים מראש שאנחנו לא נכונים לכולם, ולא כולם נכונים לנו. מכיוון שיש לנו הרבה כבוד והערכה לזמן ולכסף של הלקוחות שלנו, אנחנו בודקים זאת מראש בתהליך הכרות קצר המורכב משני שלבים. הראשון, מילוי שאלון. השני פגישת הכרות. לתהליך ההכרות יש כמה מטרות: 1. להכיר זה את זה טוב יותר. 2. לברר האם ואיזה ערך מוסף יש לנו עבורך? 3. לעזור ללקוח לחדד את הקשיים והאתגרים שלו. 4. ללמד את הלקוח להגדיר לעצמו תוצאות רצויות עבורו, ולבדוק האם אנחנו אכן יודעים לקחת אותו לאן שברצונו להגיע? בסוף תהליך ההכרות יש לכל אחד מהצדדים אפשרויות לבחור האם לצאת לדרך? הרשום כאן נכון הם לתהליך הקבוצתי והן לאישי.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">03</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">התהליך הוליסטי</h3>
+        <p class="unique-card-text">כלומר התהליך עוסק בקשיים והאתגרים של הלקוח הן בתחום האישי והן בתחום העסקי-מקצועי, וזה מהסיבה שהכל קשור להכל, ואין דרך להפריד ולא נכון להפריד. הניסיון המאוד עשיר שלנו מלמד שיכולתו של אדם ליצור שינוי עמוק ויסודי במקום הכי מאתגר עבורו, מאפשר לו לעשות זאת גם בכל תחום מתחומי חייו.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">04</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">נשאר איתך לנצח</h3>
+        <p class="unique-card-text">התהליך לא עוסק בהקניית ידע, כי אין לנו מה לחדש ללקוח בתחומי המומחיות שלו, אלא בהקניית כלים ומיומנויות שאין אותם למרבית האנשים. הכלים האלה נשארים עם הלקוח לנצח. ממש כמו ללמוד לרכב על אופניים, או ללמוד נהיגה, אין דרך לשכוח זאת. הם מאפשרים לו ליצור כל שינוי שחלם עליו, וגם כאלה שלא דמיין כלל שאפשריים עבורו, והכל באופן קל, פשוט, מהנה ובעיקר מעשי, תכלס.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">05</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">אכפת לנו מהלקוח, באמת</h3>
+        <p class="unique-card-text">ולכן אנחנו זמינים עבורו גם בין המפגשים, בטלפון או במייל. ובדיוק מהסיבה הזו אנחנו גם משחררים באהבה לקוחות שלא מסוגלים להביא את מידת הפתיחות והמחויבות הרצויים, המאפשרים לו להפיק את התוצאות שביקש עבורו. פשוט מפני שאכפת לנו מהלקוח, באמת.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">06</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">חשיפה אישית</h3>
+        <p class="unique-card-text">תהליכי הלימוד הארוכים, הן האישי והן של שדרת הניהול הפנים ארגוני, דורשים כנות מוחלטת וחשיפה אישית ברמה גבוהה. כי האישי והמקצועי כרוכים זה בזה, אין דרך להפריד, ולא נכון להפריד. אנחנו מחויבים כלפי הלקוח בדיסקרטיות מלאה. כל מה שביננו נשאר אך ורך ביננו. אמון הוא תנאי בסיסי לתהליך לימוד אפקטיבי.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">07</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">הקניית מיומנויות ולא ידע</h3>
+        <p class="unique-card-text">מיומנויות לא רוכשים בישיבה מאחורי שולחן, אלא בהתנסות, חוויה, משחק. ממש כמו לימוד נהיגה או רכיבה על אופניים. חווית לימוד עוצמתית היוצרת תהליך לימוד מואץ.</p>
+      </div>
+    </article>
+
+    <article class="unique-card">
+      <span class="unique-card-number">08</span>
+      <div class="unique-card-content">
+        <h3 class="unique-card-title">גישה אחרת ויוצאת דופן למושג המנהיגות</h3>
+        <p class="unique-card-text">אנחנו מביאים איתנו גישה מאוד שונה ואחרת למושג המנהיגות, מזו המקובלת והנפוצה, שמתייחסת למנהיגות כאל מיומנות שכל אדם יכול ללמוד ולפתח, בשני תנאים: יש באדם את הפתיחות ללמוד וחשוב לו ללמוד. יש מאחורינו גם קבלות רבות שאנחנו יודעים על מה אנחנו מדברים.</p>
+      </div>
+    </article>
   </div>
 </section>
     </main>
@@ -1151,6 +1158,7 @@
   </div>
 </footer>
 
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 
     <script src="/script.js"></script>
 
