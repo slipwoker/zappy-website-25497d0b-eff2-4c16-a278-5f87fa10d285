@@ -8120,8 +8120,18 @@ nav.site-navbar ul li a {
 }
 
 #zappy-section-3 .gallery-overlay-content h3,
-#zappy-section-3 .gallery-overlay-content p,
-#zappy-section-3 .gallery-overlay-content span {
+#zappy-section-3 .gallery-overlay-content p {
+  display: none !important;
+}
+
+#ai-section-1779702379681-ti6ij0n .vg-card-title,
+#ai-section-1779702379681-ti6ij0n .vg-card-desc,
+#ai-section-1779702379681-ti6ij0n .vg-tag {
+  display: none !important;
+}
+
+#layout-1779870953394 .customer-Testimonials-layout-section__card strong,
+#layout-1779870953394 .customer-Testimonials-layout-section__card span {
   display: none !important;
 }
 
