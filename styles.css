@@ -8135,6 +8135,11 @@ nav.site-navbar ul li a {
   display: none !important;
 }
 
+#layout-1779870953394 .customer-Testimonials-layout-section__card {
+  height: 776px;
+  overflow: hidden;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
