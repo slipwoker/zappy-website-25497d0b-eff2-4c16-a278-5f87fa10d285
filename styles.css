@@ -8063,6 +8063,58 @@ nav.site-navbar ul li a {
   transform: none !important;
 }
 
+#why-us .benefits-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 18px !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#why-us .benefit-item {
+  background: var(--surface-color);
+  border: 1px solid rgba(181,28,46,0.25);
+  border-radius: 12px;
+  padding: 22px 24px;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+#why-us .benefit-item:hover {
+  background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+#why-us .benefit-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+#why-us .benefit-item .benefit-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(181,28,46,0.1);
+  margin-bottom: 12px;
+}
+
+#why-us .benefit-item .benefit-icon i {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
+#why-us .benefit-item p {
+  margin: 0;
+  color: var(--text-secondary-color);
+  line-height: 1.6;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
