@@ -8135,10 +8135,61 @@ nav.site-navbar ul li a {
   display: none !important;
 }
 
-#layout-1779870953394 .customer-Testimonials-layout-section__card {
-  height: 776px;
-  overflow: hidden;
+/* [bewinner-legacy-navbar-fix] Site-specific legacy V1 navbar rebuild — consistent menu
+   styling, editable logo container, and a real mobile hamburger drawer.
+   Scoped to .site-navbar so it only touches this site's rebuilt navbar. */
+.site-navbar .logo-link { display: flex; align-items: center; flex-shrink: 0; text-decoration: none; }
+.site-navbar .nav-menu {
+  display: flex; flex-direction: row; align-items: center;
+  gap: 8px; list-style: none; margin: 0; padding: 0;
 }
+.site-navbar .nav-menu li { list-style: none; margin: 0; }
+.site-navbar .nav-menu li a {
+  display: inline-block; color: #1a1a1a; text-decoration: none;
+  font-weight: 500; font-size: 1rem; line-height: 1.2;
+  padding: 8px 12px; border-radius: 6px; white-space: nowrap;
+  background: transparent; transition: color .25s ease, background-color .25s ease;
+}
+.site-navbar .nav-menu li a:hover,
+.site-navbar .nav-menu li a:focus-visible { color: #D95F0E; }
+.site-navbar .nav-cta-item-mobile { display: none; }
+.site-navbar .site-navbar-toggle { display: none; }
+
+@media (max-width: 768px) {
+  .site-navbar { padding: 0 16px !important; min-height: 64px !important; gap: 8px; }
+
+  .site-navbar .site-navbar-toggle {
+    display: inline-flex !important; align-items: center; justify-content: center;
+    width: 44px; height: 44px; padding: 0; margin: 0;
+    background: transparent; border: none; cursor: pointer;
+    font-size: 26px; line-height: 1; color: #1a1a1a;
+    flex-shrink: 0; z-index: 10000;
+  }
+
+  .site-navbar .nav-menu {
+    display: none; position: fixed; top: 0; right: 0; left: auto;
+    width: 80%; max-width: 320px; height: 100vh; height: 100dvh;
+    flex-direction: column; align-items: flex-start; justify-content: flex-start;
+    gap: 4px; background: #ffffff; padding: 80px 20px 24px;
+    box-shadow: -4px 0 24px rgba(0,0,0,.18); overflow-y: auto; z-index: 9999;
+  }
+  html[dir="ltr"] .site-navbar .nav-menu,
+  html[lang="en"] .site-navbar .nav-menu {
+    right: auto; left: 0; box-shadow: 4px 0 24px rgba(0,0,0,.18);
+  }
+  .site-navbar .nav-menu.active { display: flex; }
+  .site-navbar .nav-menu li { width: 100%; }
+  .site-navbar .nav-menu li a {
+    display: block; width: 100%; font-size: 1.1rem; padding: 14px 8px;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+  }
+
+  .site-navbar .nav-cta-item-mobile { display: block; }
+  .site-navbar > .nav-cta-btn { display: none !important; }
+}
+/* [bewinner-legacy-navbar-fix] end */
+
+
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
