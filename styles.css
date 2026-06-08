@@ -8119,6 +8119,11 @@ nav.site-navbar ul li a {
   text-shadow: none !important;
 }
 
+#zappy-section-3 .gallery-overlay-content h3,
+#zappy-section-3 .gallery-overlay-content p {
+  display: none !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
