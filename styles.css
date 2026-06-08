@@ -8120,20 +8120,56 @@ nav.site-navbar ul li a {
 }
 
 #zappy-section-3 .gallery-overlay-content h3,
-#zappy-section-3 .gallery-overlay-content p {
+#zappy-section-3 .gallery-overlay-content p,
+#zappy-section-3 .gallery-overlay-content span {
   display: none !important;
 }
 
-#ai-section-1779702379681-ti6ij0n .vg-card-title,
-#ai-section-1779702379681-ti6ij0n .vg-card-desc,
-#ai-section-1779702379681-ti6ij0n .vg-tag {
-  display: none !important;
-}
+/* [bewinner-mobile-navbar-v2] Site-specific mobile navbar layout — centered logo, hamburger
+   pinned to the start (right in RTL), phone button pinned to the end (left in
+   RTL). Desktop layout is untouched. */
+.site-navbar .nav-phone-btn { display: none; } /* desktop: hidden */
+.site-navbar .nav-phone-btn svg { width: 18px; height: 18px; fill: #ffffff; display: block; }
 
-#layout-1779870953394 .customer-Testimonials-layout-section__card strong,
-#layout-1779870953394 .customer-Testimonials-layout-section__card span {
-  display: none !important;
+@media (max-width: 768px) {
+  /* Centered logo */
+  .site-navbar .logo-link {
+    position: absolute !important; left: 50% !important; top: 50% !important;
+    transform: translate(-50%, -50%) !important; margin: 0 !important; z-index: 1;
+  }
+  .site-navbar .logo-link img.logo {
+    height: 40px !important; width: auto !important; max-width: 160px !important;
+  }
+
+  /* Hamburger pinned to the START (right in RTL) */
+  .site-navbar .site-navbar-toggle,
+  .site-navbar #mobileToggle {
+    position: absolute !important; top: 50% !important; bottom: auto !important;
+    transform: translateY(-50%) !important;
+    right: 12px !important; left: auto !important; z-index: 3;
+  }
+  html[dir="ltr"] .site-navbar .site-navbar-toggle,
+  html[dir="ltr"] .site-navbar #mobileToggle {
+    right: auto !important; left: 12px !important;
+  }
+
+  /* Phone button pinned to the END (left in RTL) */
+  .site-navbar .nav-phone-btn {
+    display: inline-flex !important; align-items: center; justify-content: center;
+    position: absolute !important; top: 50% !important; bottom: auto !important;
+    transform: translateY(-50%) !important;
+    left: 12px !important; right: auto !important; z-index: 3;
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #B51C2E; color: #ffffff; text-decoration: none;
+    border: none; padding: 0;
+  }
+  html[dir="ltr"] .site-navbar .nav-phone-btn {
+    left: auto !important; right: 12px !important;
+  }
 }
+/* [bewinner-mobile-navbar-v2] end */
+
+
 
 /* [bewinner-legacy-navbar-fix] Site-specific legacy V1 navbar rebuild — consistent menu
    styling, editable logo container, and a real mobile hamburger drawer.
