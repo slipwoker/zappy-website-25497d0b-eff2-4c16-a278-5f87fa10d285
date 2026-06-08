@@ -8124,6 +8124,17 @@ nav.site-navbar ul li a {
   display: none !important;
 }
 
+#ai-section-1779702379681-ti6ij0n .vg-card-title,
+#ai-section-1779702379681-ti6ij0n .vg-card-desc,
+#ai-section-1779702379681-ti6ij0n .vg-tag {
+  display: none !important;
+}
+
+#layout-1779870953394 .customer-Testimonials-layout-section__card strong,
+#layout-1779870953394 .customer-Testimonials-layout-section__card span {
+  display: none !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
