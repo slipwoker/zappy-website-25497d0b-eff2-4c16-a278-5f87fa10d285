@@ -7297,7 +7297,7 @@ body { padding-bottom: 68px; }
 }
 
 #hero h1 {
-  text-shadow: 0 2px 16px rgba(0,0,0,0.7), 0 1px 4px rgba(0,0,0,0.5) !important;
+  text-shadow: none !important;
 }
 
 #hero p {
@@ -8113,6 +8113,10 @@ nav.site-navbar ul li a {
   margin: 0;
   color: var(--text-secondary-color);
   line-height: 1.6;
+}
+
+#hero h1 {
+  text-shadow: none !important;
 }
 
 /* zappy-nav-child-indent */
