@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://leadership-coaching.co.il/sitemap.xml
+Sitemap: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/sitemap.xml

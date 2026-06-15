@@ -1,12 +1,12 @@
 # Be a winner - השיטה המעשית לפיתוח מנהיגות
 
-Source: https://leadership-coaching.co.il
+Source: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com
 
 ---
 
 ## פתח מנהיגות מעוררת השראה — Be a winner - השיטה המעשית לפיתוח מנהיגות
 
-URL: https://leadership-coaching.co.il
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com
 Description: גלה קואצ'ינג מקצועי שמפתח מנהיגות אמיתית. תוכנית פיתוח מנהיגות לניהול בכיר ולמנכ"לים. צור קשר עוד היום!
 
 פתח מנהיגות מעוררת השראה — Be a winner - השיטה המעשית לפיתוח מנהיגות
@@ -230,7 +230,7 @@ Description: גלה קואצ'ינג מקצועי שמפתח מנהיגות אמ�
 
 ## אפשרויות לימוד | קואצ'ינג ופיתוח מנהיגות לניהול בכיר - Be a winner
 
-URL: https://leadership-coaching.co.il/learning-opportunities
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/learning-opportunities
 Description: גלו את אפשרויות הלימוד של Be a winner: הרצאות השראה, סדנאות יומיות מעשיות, ותהליך קבוצתי פנים ארגוני. קואצ'ינג מתקדם ותוכניות פיתוח מנהיגות לניהול בכיר.
 
 אפשרויות לימוד
@@ -678,9 +678,9 @@ Description: גלו את אפשרויות הלימוד של Be a winner: הרצ�
 
 ---
 
-## https://leadership-coaching.co.il/meet-the-team
+## https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/meet-the-team
 
-URL: https://leadership-coaching.co.il/meet-the-team
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/meet-the-team
 
 להכיר את הצוות
 
@@ -806,9 +806,9 @@ This page is ready for your content.
 
 ---
 
-## https://leadership-coaching.co.il/what-makes-us-unique
+## https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/what-makes-us-unique
 
-URL: https://leadership-coaching.co.il/what-makes-us-unique
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/what-makes-us-unique
 
 מה הופך אותנו ליחודיים
 
@@ -1046,7 +1046,7 @@ URL: https://leadership-coaching.co.il/what-makes-us-unique
 
 ## סיפורי הצלחה ופריצות דרך ניהוליות | Be a winner
 
-URL: https://leadership-coaching.co.il/customer-testimonials
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/customer-testimonials
 Description: קראו וצפו בסיפורי ההצלחה של מנכ"לים ומנהלים בכירים שעברו תהליכי קואצ'ינג ופיתוח מנהיגות עם שיטת Be a winner. גלו כיצד אנו מובילים ארגונים לפריצות דרך.
 
 מה אומרים הלקוחות
@@ -1337,9 +1337,9 @@ Description: קראו וצפו בסיפורי ההצלחה של מנכ"לים ו
 
 ---
 
-## https://leadership-coaching.co.il/communication-and-inspiration-performances
+## https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/communication-and-inspiration-performances
 
-URL: https://leadership-coaching.co.il/communication-and-inspiration-performances
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/communication-and-inspiration-performances
 
 הופעות בתקשרות והשראה
 
@@ -1557,9 +1557,9 @@ URL: https://leadership-coaching.co.il/communication-and-inspiration-performance
 
 ---
 
-## https://leadership-coaching.co.il/manager-to-leader
+## https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/manager-to-leader
 
-URL: https://leadership-coaching.co.il/manager-to-leader
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/manager-to-leader
 
 ממנהל למנהיג - הספר
 
@@ -1712,7 +1712,7 @@ This page is ready for your content.
 
 ## צור קשר לקואצ'ינג מקצועי — Be a winner - השיטה המעשית לפיתוח מנהיגות
 
-URL: https://leadership-coaching.co.il/contact-us
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/contact-us
 Description: צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
 
 צור קשר
@@ -1976,7 +1976,7 @@ robi@robi-steiner.co.il
 
 ## מדיניות פרטיות
 
-URL: https://leadership-coaching.co.il/privacy
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -2224,7 +2224,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות ("החברה",
 
 ## הצהרת נגישות
 
-URL: https://leadership-coaching.co.il/accessibility
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -2481,7 +2481,7 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות מחויבת �
 
 ## תנאי שימוש
 
-URL: https://leadership-coaching.co.il/terms
+URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש

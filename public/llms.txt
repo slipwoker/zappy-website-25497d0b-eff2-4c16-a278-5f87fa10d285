@@ -7,45 +7,45 @@
 ## Pages
 
 ### פתח מנהיגות מעוררת השראה — Be a winner - השיטה המעשית לפיתוח מנהיגות
-https://leadership-coaching.co.il
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com
 גלה קואצ'ינג מקצועי שמפתח מנהיגות אמיתית. תוכנית פיתוח מנהיגות לניהול בכיר ולמנכ"לים. צור קשר עוד היום!
 
 ### אפשרויות לימוד | קואצ'ינג ופיתוח מנהיגות לניהול בכיר - Be a winner
-https://leadership-coaching.co.il/learning-opportunities
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/learning-opportunities
 גלו את אפשרויות הלימוד של Be a winner: הרצאות השראה, סדנאות יומיות מעשיות, ותהליך קבוצתי פנים ארגוני. קואצ'ינג מתקדם ותוכניות פיתוח מנהיגות לניהול בכיר.
 
 ### Page
-https://leadership-coaching.co.il/meet-the-team
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/meet-the-team
 
 ### Page
-https://leadership-coaching.co.il/what-makes-us-unique
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/what-makes-us-unique
 
 ### סיפורי הצלחה ופריצות דרך ניהוליות | Be a winner
-https://leadership-coaching.co.il/customer-testimonials
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/customer-testimonials
 קראו וצפו בסיפורי ההצלחה של מנכ"לים ומנהלים בכירים שעברו תהליכי קואצ'ינג ופיתוח מנהיגות עם שיטת Be a winner. גלו כיצד אנו מובילים ארגונים לפריצות דרך.
 
 ### Page
-https://leadership-coaching.co.il/communication-and-inspiration-performances
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/communication-and-inspiration-performances
 
 ### Page
-https://leadership-coaching.co.il/manager-to-leader
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/manager-to-leader
 
 ### צור קשר לקואצ'ינג מקצועי — Be a winner - השיטה המעשית לפיתוח מנהיגות
-https://leadership-coaching.co.il/contact-us
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/contact-us
 צור קשר עכשיו לקואצ'ינג למנכלים בישראל ותוכנית פיתוח מנהיגות לניהול בכיר. נשמח לשמוע ממך!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://leadership-coaching.co.il/privacy
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://leadership-coaching.co.il/terms
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://leadership-coaching.co.il/accessibility
+https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -57,8 +57,8 @@ Information about WCAG compliance and accessibility features.
 - Phone (tel): tel:0587458008
 
 ### Contact form
-- URL: https://leadership-coaching.co.il/contact-us
-- Endpoint: https://leadership-coaching.co.il/api/email/contact-form
+- URL: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/contact-us
+- Endpoint: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -86,6 +86,6 @@ Be a winner - השיטה המעשית לפיתוח מנהיגות is a business 
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://leadership-coaching.co.il/sitemap.xml
-- Robots: https://leadership-coaching.co.il/robots.txt
-- Flattened page text (for LLMs): https://leadership-coaching.co.il/llms-full.txt
+- Sitemap (XML): https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/sitemap.xml
+- Robots: https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/robots.txt
+- Flattened page text (for LLMs): https://zappy-site-25497d0b-eff2-4c16-a278.onrender.com/llms-full.txt
